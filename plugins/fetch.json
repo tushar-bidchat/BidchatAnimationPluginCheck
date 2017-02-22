@@ -1,0 +1,26 @@
+{
+    "cordova-plugin-whitelist": {
+        "source": {
+            "type": "registry",
+            "id": "cordova-plugin-whitelist@1"
+        },
+        "is_top_level": true,
+        "variables": {}
+    },
+    "cordova-plugin-cocoapod-support": {
+        "source": {
+            "type": "registry",
+            "id": "cordova-plugin-cocoapod-support"
+        },
+        "is_top_level": true,
+        "variables": {}
+    },
+    "bidchat-plugin-animations": {
+        "source": {
+            "type": "local",
+            "path": "/Data/git/plugin/BidchatAnimations"
+        },
+        "is_top_level": true,
+        "variables": {}
+    }
+}

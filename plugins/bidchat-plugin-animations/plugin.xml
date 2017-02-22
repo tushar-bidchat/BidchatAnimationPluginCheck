@@ -1,0 +1,56 @@
+<?xml version='1.0' encoding='utf-8'?>
+<plugin id="bidchat-plugin-animations" version="0.0.1" xmlns="http://apache.org/cordova/ns/plugins/1.0" xmlns:android="http://schemas.android.com/apk/res/android">
+    <name>BidchatAnimations</name>
+    <js-module name="BidchatAnimations" src="www/BidchatAnimations.js">
+        <clobbers target="cordova.plugins.BidchatAnimations" />
+    </js-module>
+
+    <platform name="android">
+        <config-file parent="/*" target="res/xml/config.xml">
+            <feature name="BidchatAnimations">
+                <param name="android-package" value="com.bidchat.BidchatAnimations" />
+                <!--<param name="onload" value="true" />-->
+            </feature>
+        </config-file>
+        <!--<config-file parent="/*" target="AndroidManifest.xml" />-->
+        
+        <framework src="src/android/build-extras.gradle" custom="true" type="gradleReference" />
+        <source-file src="src/android/BidchatAnimations.java" target-dir="src/com/bidchat/BidchatAnimations" />
+        
+        <!-- For Share Menu -->
+        <source-file src="src/android/FakeR.java" target-dir="src/com/bidchat/BidchatAnimations" />
+        <source-file src="src/android/MenuAdapter.java" target-dir="src/com/bidchat/BidchatAnimations" />
+        <source-file src="src/android/MenuAnimator.java" target-dir="src/com/bidchat/BidchatAnimations" />
+        <source-file src="src/android/MenuClickListener.java" target-dir="src/com/bidchat/BidchatAnimations" />
+        <source-file src="src/android/MenuItem.java" target-dir="src/com/bidchat/BidchatAnimations" />
+        <source-file src="src/android/MenuTouchListener.java" target-dir="src/com/bidchat/BidchatAnimations" />
+        <source-file src="src/android/PopMenuActivity.java" target-dir="src/com/bidchat/BidchatAnimations" />
+        <source-file src="src/android/PopMenuItemClickListener.java" target-dir="src/com/bidchat/BidchatAnimations" />
+        <source-file src="src/android/PopMenuView.java" target-dir="src/com/bidchat/BidchatAnimations" />
+    </platform>
+
+    <platform name="ios">
+        <config-file parent="/*" target="config.xml">
+            <feature name="BidchatAnimations">
+                <param name="ios-package" value="BidchatAnimations" />
+            </feature>
+        </config-file>
+
+        <source-file src="src/ios/BidchatAnimations.m" />
+
+        <source-file src="src/ios/resources/email.png" />
+        <source-file src="src/ios/resources/facebook.png" />
+        <source-file src="src/ios/resources/google-plus.png" />
+        <source-file src="src/ios/resources/instagram.png" />
+        <source-file src="src/ios/resources/messages.png" />
+        <source-file src="src/ios/resources/twitter.png" />
+
+
+    </platform>
+
+    <platform name="ios">
+        <preference name="deployment-target" value="9.0" />
+        <preference name="pods_use_frameworks" value="true" />
+        <pod id="PopMenu" />
+    </platform>
+</plugin>

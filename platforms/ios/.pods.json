@@ -1,0 +1,10 @@
+{
+	"pods": {
+		"PopMenu": {
+			"id": "PopMenu"
+		}
+	},
+	"sources": {},
+	"iosMinVersion": "7.0",
+	"useFrameworks": false
+}
