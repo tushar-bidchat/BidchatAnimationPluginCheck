@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = '74C986C65896BFB3E5FA8E241F9A38D0'
+               BlueprintIdentifier = 'E641DA9A4C902C1834F3060AFF1403D1'
                BlueprintName = 'Pods-BidchatAnimationPluginCheck'
                ReferencedContainer = 'container:Pods.xcodeproj'
                BuildableName = 'libPods-BidchatAnimationPluginCheck.a'>

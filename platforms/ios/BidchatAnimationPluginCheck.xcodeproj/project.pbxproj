@@ -14,13 +14,14 @@
 		302D95F214D2391D003F00A1 /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 302D95F014D2391D003F00A1 /* MainViewController.xib */; };
 		6AFF5BF91D6E424B00AB3073 /* CDVLaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6AFF5BF81D6E424B00AB3073 /* CDVLaunchScreen.storyboard */; };
 		E77A897CE57C0A134E9AA27B /* libPods-BidchatAnimationPluginCheck.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CA7DB33D6724789F60C19F59 /* libPods-BidchatAnimationPluginCheck.a */; };
-		5CE1AAD682124F2E8F461F97 /* BidchatAnimations.m in Sources */ = {isa = PBXBuildFile; fileRef = 67ACE23A3FEC43F0B50CBB32 /* BidchatAnimations.m */; };
-		8C564EEBA46E4D88AB1AD20D /* email.png in Resources */ = {isa = PBXBuildFile; fileRef = F9576765FD7A43E5A3CA9FAE /* email.png */; };
-		FCBE1F82A9BB4B1084B62BF9 /* facebook.png in Resources */ = {isa = PBXBuildFile; fileRef = 9B47570547544EB1A37A156D /* facebook.png */; };
-		AFF26DAD53AB4D2CA655DEF6 /* google-plus.png in Resources */ = {isa = PBXBuildFile; fileRef = 0AA3AFCB819E44249D01B63E /* google-plus.png */; };
-		48891EF2ABA74B5D9F21E367 /* instagram.png in Resources */ = {isa = PBXBuildFile; fileRef = F7F5F322DFA54D2EA1EBD95A /* instagram.png */; };
-		2E1174492FB74746843A449E /* messages.png in Resources */ = {isa = PBXBuildFile; fileRef = BBA3D7B2E9194B7E8AAC4DB8 /* messages.png */; };
-		0D2FD3C47B884B06AE289512 /* twitter.png in Resources */ = {isa = PBXBuildFile; fileRef = 05F574FD124945F5922993E0 /* twitter.png */; };
+		1E72CF279F4F4938B4BA2AEF /* BidchatAnimations.m in Sources */ = {isa = PBXBuildFile; fileRef = 34BD133E907240A58898BD00 /* BidchatAnimations.m */; };
+		59E4BAC4A6A34CDAAB2673A8 /* email.png in Resources */ = {isa = PBXBuildFile; fileRef = B7FA8E8CC56B450D8C3F783F /* email.png */; };
+		566BD8EB91BE40C8B76B5D70 /* facebook.png in Resources */ = {isa = PBXBuildFile; fileRef = BD5651368EE6499AA0BF94FC /* facebook.png */; };
+		EA0F22B8AD014C9E984A8EF8 /* google-plus.png in Resources */ = {isa = PBXBuildFile; fileRef = 331296AE19B24CA9B73BB841 /* google-plus.png */; };
+		3A44BD548C6F44C4A1F82C67 /* instagram.png in Resources */ = {isa = PBXBuildFile; fileRef = D2A98EAD9EA345AB9951FD7F /* instagram.png */; };
+		4995DC0FA1A6451592BCC48F /* messages.png in Resources */ = {isa = PBXBuildFile; fileRef = F40006A3B66B47F68CB987C8 /* messages.png */; };
+		DF9D8DC64B154C209DFC617A /* twitter.png in Resources */ = {isa = PBXBuildFile; fileRef = 5F093E49750F498F9BD8C6CF /* twitter.png */; };
+		C95D687548104742A4FAFDDA /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18DF98588E244D8A886D14DA /* QuartzCore.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,13 +63,14 @@
 		EB87FDF41871DAF40020F90C /* config.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = config.xml; path = ../../config.xml; sourceTree = "<group>"; };
 		ED33DF2A687741AEAF9F8254 /* Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Bridging-Header.h"; sourceTree = "<group>"; };
 		F840E1F0165FE0F500CFE078 /* config.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = config.xml; path = BidchatAnimationPluginCheck/config.xml; sourceTree = "<group>"; };
-		67ACE23A3FEC43F0B50CBB32 /* BidchatAnimations.m */ = {isa = PBXFileReference; name = "BidchatAnimations.m"; path = "bidchat-plugin-animations/BidchatAnimations.m"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; explicitFileType = undefined; includeInIndex = 0; };
-		F9576765FD7A43E5A3CA9FAE /* email.png */ = {isa = PBXFileReference; name = "email.png"; path = "bidchat-plugin-animations/email.png"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		9B47570547544EB1A37A156D /* facebook.png */ = {isa = PBXFileReference; name = "facebook.png"; path = "bidchat-plugin-animations/facebook.png"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		0AA3AFCB819E44249D01B63E /* google-plus.png */ = {isa = PBXFileReference; name = "google-plus.png"; path = "bidchat-plugin-animations/google-plus.png"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		F7F5F322DFA54D2EA1EBD95A /* instagram.png */ = {isa = PBXFileReference; name = "instagram.png"; path = "bidchat-plugin-animations/instagram.png"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		BBA3D7B2E9194B7E8AAC4DB8 /* messages.png */ = {isa = PBXFileReference; name = "messages.png"; path = "bidchat-plugin-animations/messages.png"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		05F574FD124945F5922993E0 /* twitter.png */ = {isa = PBXFileReference; name = "twitter.png"; path = "bidchat-plugin-animations/twitter.png"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		34BD133E907240A58898BD00 /* BidchatAnimations.m */ = {isa = PBXFileReference; name = "BidchatAnimations.m"; path = "bidchat-plugin-animations/BidchatAnimations.m"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; explicitFileType = undefined; includeInIndex = 0; };
+		B7FA8E8CC56B450D8C3F783F /* email.png */ = {isa = PBXFileReference; name = "email.png"; path = "bidchat-plugin-animations/email.png"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		BD5651368EE6499AA0BF94FC /* facebook.png */ = {isa = PBXFileReference; name = "facebook.png"; path = "bidchat-plugin-animations/facebook.png"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		331296AE19B24CA9B73BB841 /* google-plus.png */ = {isa = PBXFileReference; name = "google-plus.png"; path = "bidchat-plugin-animations/google-plus.png"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		D2A98EAD9EA345AB9951FD7F /* instagram.png */ = {isa = PBXFileReference; name = "instagram.png"; path = "bidchat-plugin-animations/instagram.png"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		F40006A3B66B47F68CB987C8 /* messages.png */ = {isa = PBXFileReference; name = "messages.png"; path = "bidchat-plugin-animations/messages.png"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		5F093E49750F498F9BD8C6CF /* twitter.png */ = {isa = PBXFileReference; name = "twitter.png"; path = "bidchat-plugin-animations/twitter.png"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		18DF98588E244D8A886D14DA /* QuartzCore.framework */ = {isa = PBXFileReference; name = "QuartzCore.framework"; path = "System/Library/Frameworks/QuartzCore.framework"; sourceTree = SDKROOT; fileEncoding = undefined; lastKnownFileType = wrapper.framework; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +80,7 @@
 			files = (
 				301BF552109A68D80062928A /* libCordova.a in Frameworks */,
 				E77A897CE57C0A134E9AA27B /* libPods-BidchatAnimationPluginCheck.a in Frameworks */,
+				C95D687548104742A4FAFDDA /* QuartzCore.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -150,6 +153,7 @@
 			isa = PBXGroup;
 			children = (
 				CA7DB33D6724789F60C19F59 /* libPods-BidchatAnimationPluginCheck.a */,
+				18DF98588E244D8A886D14DA /* QuartzCore.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -175,13 +179,13 @@
 		307C750510C5A3420062BCA9 /* Plugins */ = {
 			isa = PBXGroup;
 			children = (
-				67ACE23A3FEC43F0B50CBB32 /* BidchatAnimations.m */,
-				F9576765FD7A43E5A3CA9FAE /* email.png */,
-				9B47570547544EB1A37A156D /* facebook.png */,
-				0AA3AFCB819E44249D01B63E /* google-plus.png */,
-				F7F5F322DFA54D2EA1EBD95A /* instagram.png */,
-				BBA3D7B2E9194B7E8AAC4DB8 /* messages.png */,
-				05F574FD124945F5922993E0 /* twitter.png */,
+				34BD133E907240A58898BD00 /* BidchatAnimations.m */,
+				B7FA8E8CC56B450D8C3F783F /* email.png */,
+				BD5651368EE6499AA0BF94FC /* facebook.png */,
+				331296AE19B24CA9B73BB841 /* google-plus.png */,
+				D2A98EAD9EA345AB9951FD7F /* instagram.png */,
+				F40006A3B66B47F68CB987C8 /* messages.png */,
+				5F093E49750F498F9BD8C6CF /* twitter.png */,
 			);
 			name = Plugins;
 			path = BidchatAnimationPluginCheck/Plugins;
@@ -358,13 +362,13 @@
 				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
 				1D3623260D0F684500981E51 /* AppDelegate.m in Sources */,
 				302D95F114D2391D003F00A1 /* MainViewController.m in Sources */,
-				5CE1AAD682124F2E8F461F97 /* BidchatAnimations.m in Sources */,
-				8C564EEBA46E4D88AB1AD20D /* email.png in Resources */,
-				FCBE1F82A9BB4B1084B62BF9 /* facebook.png in Resources */,
-				AFF26DAD53AB4D2CA655DEF6 /* google-plus.png in Resources */,
-				48891EF2ABA74B5D9F21E367 /* instagram.png in Resources */,
-				2E1174492FB74746843A449E /* messages.png in Resources */,
-				0D2FD3C47B884B06AE289512 /* twitter.png in Resources */,
+				1E72CF279F4F4938B4BA2AEF /* BidchatAnimations.m in Sources */,
+				59E4BAC4A6A34CDAAB2673A8 /* email.png in Resources */,
+				566BD8EB91BE40C8B76B5D70 /* facebook.png in Resources */,
+				EA0F22B8AD014C9E984A8EF8 /* google-plus.png in Resources */,
+				3A44BD548C6F44C4A1F82C67 /* instagram.png in Resources */,
+				4995DC0FA1A6451592BCC48F /* messages.png in Resources */,
+				DF9D8DC64B154C209DFC617A /* twitter.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

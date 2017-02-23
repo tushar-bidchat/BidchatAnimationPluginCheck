@@ -2,6 +2,9 @@
 	"pods": {
 		"PopMenu": {
 			"id": "PopMenu"
+		},
+		"DCAnimationKit": {
+			"id": "DCAnimationKit"
 		}
 	},
 	"sources": {},

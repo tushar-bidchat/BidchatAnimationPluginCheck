@@ -13,7 +13,7 @@
                             "count": 1
                         },
                         {
-                            "xml": "<feature name=\"BidchatAnimations\"><param name=\"android-package\" value=\"com.bidchat.BidchatAnimations\" /></feature>",
+                            "xml": "<feature name=\"BidchatAnimations\"><param name=\"android-package\" value=\"com.bidchat.BidchatAnimations.BidchatAnimations\" /></feature>",
                             "count": 1
                         }
                     ]

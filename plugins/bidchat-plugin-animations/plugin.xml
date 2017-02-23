@@ -8,25 +8,39 @@
     <platform name="android">
         <config-file parent="/*" target="res/xml/config.xml">
             <feature name="BidchatAnimations">
-                <param name="android-package" value="com.bidchat.BidchatAnimations" />
-                <!--<param name="onload" value="true" />-->
+                <param name="android-package" value="com.bidchat.BidchatAnimations.BidchatAnimations" />
             </feature>
         </config-file>
-        <!--<config-file parent="/*" target="AndroidManifest.xml" />-->
+        
+        <config-file parent="/*" target="AndroidManifest.xml" />
         
         <framework src="src/android/build-extras.gradle" custom="true" type="gradleReference" />
-        <source-file src="src/android/BidchatAnimations.java" target-dir="src/com/bidchat/BidchatAnimations" />
+        <source-file src="src/android/src/BidchatAnimations.java" target-dir="src/com/bidchat/BidchatAnimations" />
         
         <!-- For Share Menu -->
-        <source-file src="src/android/FakeR.java" target-dir="src/com/bidchat/BidchatAnimations" />
-        <source-file src="src/android/MenuAdapter.java" target-dir="src/com/bidchat/BidchatAnimations" />
-        <source-file src="src/android/MenuAnimator.java" target-dir="src/com/bidchat/BidchatAnimations" />
-        <source-file src="src/android/MenuClickListener.java" target-dir="src/com/bidchat/BidchatAnimations" />
-        <source-file src="src/android/MenuItem.java" target-dir="src/com/bidchat/BidchatAnimations" />
-        <source-file src="src/android/MenuTouchListener.java" target-dir="src/com/bidchat/BidchatAnimations" />
-        <source-file src="src/android/PopMenuActivity.java" target-dir="src/com/bidchat/BidchatAnimations" />
-        <source-file src="src/android/PopMenuItemClickListener.java" target-dir="src/com/bidchat/BidchatAnimations" />
-        <source-file src="src/android/PopMenuView.java" target-dir="src/com/bidchat/BidchatAnimations" />
+        <source-file src="src/android/src/FakeR.java" target-dir="src/com/bidchat/BidchatAnimations" />
+        <source-file src="src/android/src/MenuAdapter.java" target-dir="src/com/bidchat/BidchatAnimations" />
+        <source-file src="src/android/src/MenuAnimator.java" target-dir="src/com/bidchat/BidchatAnimations" />
+        <source-file src="src/android/src/MenuClickListener.java" target-dir="src/com/bidchat/BidchatAnimations" />
+        <source-file src="src/android/src/MenuItem.java" target-dir="src/com/bidchat/BidchatAnimations" />
+        <source-file src="src/android/src/MenuTouchListener.java" target-dir="src/com/bidchat/BidchatAnimations" />
+        <source-file src="src/android/src/PopMenuActivity.java" target-dir="src/com/bidchat/BidchatAnimations" />
+        <source-file src="src/android/src/PopMenuItemClickListener.java" target-dir="src/com/bidchat/BidchatAnimations" />
+        <source-file src="src/android/src/PopMenuView.java" target-dir="src/com/bidchat/BidchatAnimations" />
+
+        <source-file src="src/android/res/layout/layout_pop_menu.xml" target-dir="res/layout"/>
+        <source-file src="src/android/res/layout/menu_item.xml" target-dir="res/layout"/>
+
+        <source-file src="src/android/res/drawable-hdpi/email.png" target-dir="res/drawable"/>
+        <source-file src="src/android/res/drawable-hdpi/facebook.png" target-dir="res/drawable"/>
+        <source-file src="src/android/res/drawable-hdpi/google_plus.png" target-dir="res/drawable"/>
+        <source-file src="src/android/res/drawable-hdpi/instagram.png" target-dir="res/drawable"/>
+        <source-file src="src/android/res/drawable-hdpi/messages.png" target-dir="res/drawable"/>
+        <source-file src="src/android/res/drawable-hdpi/twitter.png" target-dir="res/drawable"/>
+
+        <source-file src="src/android/res/values/colors.xml" target-dir="res/values"/>
+        <source-file src="src/android/res/values/dimens.xml" target-dir="res/values"/>
+
     </platform>
 
     <platform name="ios">
@@ -45,6 +59,7 @@
         <source-file src="src/ios/resources/messages.png" />
         <source-file src="src/ios/resources/twitter.png" />
 
+        <framework src="QuartzCore.framework" />
 
     </platform>
 
@@ -52,5 +67,6 @@
         <preference name="deployment-target" value="9.0" />
         <preference name="pods_use_frameworks" value="true" />
         <pod id="PopMenu" />
+        <pod id="DCAnimationKit" /> <!-- For Flash Notifications-->
     </platform>
 </plugin>

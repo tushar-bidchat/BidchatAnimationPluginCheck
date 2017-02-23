@@ -4,6 +4,9 @@
         <param name="android-package" value="org.apache.cordova.whitelist.WhitelistPlugin" />
         <param name="onload" value="true" />
     </feature>
+    <feature name="BidchatAnimations">
+        <param name="android-package" value="com.bidchat.BidchatAnimations.BidchatAnimations" />
+    </feature>
     <name>BidchatAnimationPluginCheck</name>
     <description>
         A sample Apache Cordova application that responds to the deviceready event.
@@ -21,7 +24,4 @@
     <allow-intent href="geo:*" />
     <allow-intent href="market:*" />
     <preference name="loglevel" value="DEBUG" />
-    <feature name="BidchatAnimations">
-        <param name="android-package" value="com.bidchat.BidchatAnimations" />
-    </feature>
 </widget>

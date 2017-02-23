@@ -4,53 +4,55 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>DCAnimationKit.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>Pods-BidchatAnimationPluginCheck.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
-			<key>orderHint</key>
-			<integer>2</integer>
 		</dict>
 		<key>PopMenu.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
-			<key>orderHint</key>
-			<integer>4</integer>
 		</dict>
 		<key>XHRealTimeBlur.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
-			<key>orderHint</key>
-			<integer>5</integer>
 		</dict>
 		<key>pop.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
-			<key>orderHint</key>
-			<integer>3</integer>
 		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>67FE3B910AD71BD97F1F58682F66DDC7</key>
+		<key>5A5E41FBB0F81E41671EAB1A004BB83B</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>74C986C65896BFB3E5FA8E241F9A38D0</key>
+		<key>606EA125A35D0F6EE4662B0A7EBAA3BE</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>BE523EFE339B3C2AFF764A0793EF58CB</key>
+		<key>819A5AAC170AA6976CCCDEF9A8CE796A</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>DAB3B6FB613AAADE4234746A606E1BEA</key>
+		<key>C25B2EE8FDFDB8EBBE5DF1B94C2031B7</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>E641DA9A4C902C1834F3060AFF1403D1</key>
 		<dict>
 			<key>primary</key>
 			<true/>

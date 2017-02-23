@@ -17,8 +17,11 @@ var app = {
     receivedEvent: function(id) {
 
         document.getElementById("buttonShare").addEventListener("click", function () {
-            // TODO : Implement 
             cordova.plugins.BidchatAnimations.showShareMenu(null, null, "SelectedShareButton");
+        });
+
+        document.getElementById("buttonFlashNotification").addEventListener("click", function () {
+            cordova.plugins.BidchatAnimations.showFlashNotification(null, null, "Selected Share Button")
         });
 
     }
