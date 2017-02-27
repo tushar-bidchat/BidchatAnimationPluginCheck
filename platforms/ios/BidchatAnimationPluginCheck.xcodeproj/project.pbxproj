@@ -5,6 +5,7 @@
 	};
 	objectVersion = 46;
 	objects = {
+
 /* Begin PBXBuildFile section */
 		0207DA581B56EA530066E2B4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0207DA571B56EA530066E2B4 /* Images.xcassets */; };
 		1D3623260D0F684500981E51 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* AppDelegate.m */; };
@@ -12,16 +13,34 @@
 		301BF552109A68D80062928A /* libCordova.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 301BF535109A57CC0062928A /* libCordova.a */; };
 		302D95F114D2391D003F00A1 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 302D95EF14D2391D003F00A1 /* MainViewController.m */; };
 		302D95F214D2391D003F00A1 /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 302D95F014D2391D003F00A1 /* MainViewController.xib */; };
-		6AFF5BF91D6E424B00AB3073 /* CDVLaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6AFF5BF81D6E424B00AB3073 /* CDVLaunchScreen.storyboard */; };
-		E77A897CE57C0A134E9AA27B /* libPods-BidchatAnimationPluginCheck.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CA7DB33D6724789F60C19F59 /* libPods-BidchatAnimationPluginCheck.a */; };
 		3180426E2B2F46F48AE7EF2F /* BidchatAnimations.m in Sources */ = {isa = PBXBuildFile; fileRef = F4CE38FE524E4CF98DCE1457 /* BidchatAnimations.m */; };
-		430BF3CB8D18468394919424 /* email.png in Resources */ = {isa = PBXBuildFile; fileRef = 7D5F539C96F74F30992E78E0 /* email.png */; };
-		67BB60C3C0684F17AA9E3F60 /* facebook.png in Resources */ = {isa = PBXBuildFile; fileRef = 753C7DEAEAC748FF81F7B4C3 /* facebook.png */; };
-		8D3894328DB4466A88DA5050 /* google-plus.png in Resources */ = {isa = PBXBuildFile; fileRef = DB5E2C95B0984F72905CE51D /* google-plus.png */; };
-		62A1B4AD32C34098845ADBD2 /* instagram.png in Resources */ = {isa = PBXBuildFile; fileRef = BB7206C214DE4A20A3D9F1DB /* instagram.png */; };
-		38967C75CD184F56B671A5D8 /* messages.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F57553E0377424FBCA1A263 /* messages.png */; };
-		419F09C63A3944BABEBE55C3 /* twitter.png in Resources */ = {isa = PBXBuildFile; fileRef = 55947E9573B74074B6698AEF /* twitter.png */; };
+		38967C75CD184F56B671A5D8 /* messages.png in Sources */ = {isa = PBXBuildFile; fileRef = 9F57553E0377424FBCA1A263 /* messages.png */; };
+		419F09C63A3944BABEBE55C3 /* twitter.png in Sources */ = {isa = PBXBuildFile; fileRef = 55947E9573B74074B6698AEF /* twitter.png */; };
+		430BF3CB8D18468394919424 /* email.png in Sources */ = {isa = PBXBuildFile; fileRef = 7D5F539C96F74F30992E78E0 /* email.png */; };
+		62A1B4AD32C34098845ADBD2 /* instagram.png in Sources */ = {isa = PBXBuildFile; fileRef = BB7206C214DE4A20A3D9F1DB /* instagram.png */; };
+		67BB60C3C0684F17AA9E3F60 /* facebook.png in Sources */ = {isa = PBXBuildFile; fileRef = 753C7DEAEAC748FF81F7B4C3 /* facebook.png */; };
+		6AFF5BF91D6E424B00AB3073 /* CDVLaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6AFF5BF81D6E424B00AB3073 /* CDVLaunchScreen.storyboard */; };
+		78F3C5A41E6426870015FB3C /* CountdownLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78F3C58F1E6426870015FB3C /* CountdownLabel.swift */; };
+		78F3C5A51E6426870015FB3C /* LTCharacterDiffResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78F3C5911E6426870015FB3C /* LTCharacterDiffResult.swift */; };
+		78F3C5A61E6426870015FB3C /* LTCharacterLimbo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78F3C5921E6426870015FB3C /* LTCharacterLimbo.swift */; };
+		78F3C5A71E6426870015FB3C /* LTEasing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78F3C5931E6426870015FB3C /* LTEasing.swift */; };
+		78F3C5A81E6426870015FB3C /* LTEmitterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78F3C5941E6426870015FB3C /* LTEmitterView.swift */; };
+		78F3C5A91E6426870015FB3C /* LTMorphingEffect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78F3C5951E6426870015FB3C /* LTMorphingEffect.swift */; };
+		78F3C5AA1E6426870015FB3C /* LTMorphingLabel+Anvil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78F3C5961E6426870015FB3C /* LTMorphingLabel+Anvil.swift */; };
+		78F3C5AB1E6426870015FB3C /* LTMorphingLabel+Burn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78F3C5971E6426870015FB3C /* LTMorphingLabel+Burn.swift */; };
+		78F3C5AC1E6426870015FB3C /* LTMorphingLabel+Evaporate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78F3C5981E6426870015FB3C /* LTMorphingLabel+Evaporate.swift */; };
+		78F3C5AD1E6426870015FB3C /* LTMorphingLabel+Fall.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78F3C5991E6426870015FB3C /* LTMorphingLabel+Fall.swift */; };
+		78F3C5AE1E6426870015FB3C /* LTMorphingLabel+Pixelate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78F3C59A1E6426870015FB3C /* LTMorphingLabel+Pixelate.swift */; };
+		78F3C5AF1E6426870015FB3C /* LTMorphingLabel+Sparkle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78F3C59B1E6426870015FB3C /* LTMorphingLabel+Sparkle.swift */; };
+		78F3C5B01E6426870015FB3C /* LTMorphingLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78F3C59D1E6426870015FB3C /* LTMorphingLabel.swift */; };
+		78F3C5B11E6426870015FB3C /* LTStringDiffResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78F3C59E1E6426870015FB3C /* LTStringDiffResult.swift */; };
+		78F3C5B21E6426870015FB3C /* Fire.png in Resources */ = {isa = PBXBuildFile; fileRef = 78F3C5A01E6426870015FB3C /* Fire.png */; };
+		78F3C5B31E6426870015FB3C /* Fragment.png in Resources */ = {isa = PBXBuildFile; fileRef = 78F3C5A11E6426870015FB3C /* Fragment.png */; };
+		78F3C5B41E6426870015FB3C /* Smoke.png in Resources */ = {isa = PBXBuildFile; fileRef = 78F3C5A21E6426870015FB3C /* Smoke.png */; };
+		78F3C5B51E6426870015FB3C /* Sparkle.png in Resources */ = {isa = PBXBuildFile; fileRef = 78F3C5A31E6426870015FB3C /* Sparkle.png */; };
+		8D3894328DB4466A88DA5050 /* google-plus.png in Sources */ = {isa = PBXBuildFile; fileRef = DB5E2C95B0984F72905CE51D /* google-plus.png */; };
 		92B99984AC874C3A903A9672 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F29843DECC764F6E9F85BD23 /* QuartzCore.framework */; };
+		E77A897CE57C0A134E9AA27B /* libPods-BidchatAnimationPluginCheck.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CA7DB33D6724789F60C19F59 /* libPods-BidchatAnimationPluginCheck.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,21 +75,40 @@
 		3047A5101AB8059700498E2A /* build-release.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; name = "build-release.xcconfig"; path = "cordova/build-release.xcconfig"; sourceTree = SOURCE_ROOT; };
 		3047A5111AB8059700498E2A /* build.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; name = build.xcconfig; path = cordova/build.xcconfig; sourceTree = SOURCE_ROOT; };
 		32CA4F630368D1EE00C91783 /* BidchatAnimationPluginCheck-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "BidchatAnimationPluginCheck-Prefix.pch"; sourceTree = "<group>"; };
+		55947E9573B74074B6698AEF /* twitter.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = twitter.png; path = "bidchat-plugin-animations/twitter.png"; sourceTree = "<group>"; };
 		6AFF5BF81D6E424B00AB3073 /* CDVLaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = CDVLaunchScreen.storyboard; path = BidchatAnimationPluginCheck/CDVLaunchScreen.storyboard; sourceTree = SOURCE_ROOT; };
+		753C7DEAEAC748FF81F7B4C3 /* facebook.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = facebook.png; path = "bidchat-plugin-animations/facebook.png"; sourceTree = "<group>"; };
+		78F3C58F1E6426870015FB3C /* CountdownLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CountdownLabel.swift; sourceTree = "<group>"; };
+		78F3C5911E6426870015FB3C /* LTCharacterDiffResult.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LTCharacterDiffResult.swift; sourceTree = "<group>"; };
+		78F3C5921E6426870015FB3C /* LTCharacterLimbo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LTCharacterLimbo.swift; sourceTree = "<group>"; };
+		78F3C5931E6426870015FB3C /* LTEasing.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LTEasing.swift; sourceTree = "<group>"; };
+		78F3C5941E6426870015FB3C /* LTEmitterView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LTEmitterView.swift; sourceTree = "<group>"; };
+		78F3C5951E6426870015FB3C /* LTMorphingEffect.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LTMorphingEffect.swift; sourceTree = "<group>"; };
+		78F3C5961E6426870015FB3C /* LTMorphingLabel+Anvil.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "LTMorphingLabel+Anvil.swift"; sourceTree = "<group>"; };
+		78F3C5971E6426870015FB3C /* LTMorphingLabel+Burn.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "LTMorphingLabel+Burn.swift"; sourceTree = "<group>"; };
+		78F3C5981E6426870015FB3C /* LTMorphingLabel+Evaporate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "LTMorphingLabel+Evaporate.swift"; sourceTree = "<group>"; };
+		78F3C5991E6426870015FB3C /* LTMorphingLabel+Fall.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "LTMorphingLabel+Fall.swift"; sourceTree = "<group>"; };
+		78F3C59A1E6426870015FB3C /* LTMorphingLabel+Pixelate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "LTMorphingLabel+Pixelate.swift"; sourceTree = "<group>"; };
+		78F3C59B1E6426870015FB3C /* LTMorphingLabel+Sparkle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "LTMorphingLabel+Sparkle.swift"; sourceTree = "<group>"; };
+		78F3C59C1E6426870015FB3C /* LTMorphingLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LTMorphingLabel.h; sourceTree = "<group>"; };
+		78F3C59D1E6426870015FB3C /* LTMorphingLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LTMorphingLabel.swift; sourceTree = "<group>"; };
+		78F3C59E1E6426870015FB3C /* LTStringDiffResult.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LTStringDiffResult.swift; sourceTree = "<group>"; };
+		78F3C5A01E6426870015FB3C /* Fire.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Fire.png; sourceTree = "<group>"; };
+		78F3C5A11E6426870015FB3C /* Fragment.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Fragment.png; sourceTree = "<group>"; };
+		78F3C5A21E6426870015FB3C /* Smoke.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Smoke.png; sourceTree = "<group>"; };
+		78F3C5A31E6426870015FB3C /* Sparkle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Sparkle.png; sourceTree = "<group>"; };
+		7D5F539C96F74F30992E78E0 /* email.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = email.png; path = "bidchat-plugin-animations/email.png"; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* BidchatAnimationPluginCheck-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "BidchatAnimationPluginCheck-Info.plist"; path = "BidchatAnimationPluginCheck/BidchatAnimationPluginCheck-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = SOURCE_ROOT; };
+		9F57553E0377424FBCA1A263 /* messages.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = messages.png; path = "bidchat-plugin-animations/messages.png"; sourceTree = "<group>"; };
+		BB7206C214DE4A20A3D9F1DB /* instagram.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = instagram.png; path = "bidchat-plugin-animations/instagram.png"; sourceTree = "<group>"; };
 		CA7DB33D6724789F60C19F59 /* libPods-BidchatAnimationPluginCheck.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BidchatAnimationPluginCheck.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB5E2C95B0984F72905CE51D /* google-plus.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "google-plus.png"; path = "bidchat-plugin-animations/google-plus.png"; sourceTree = "<group>"; };
 		EB87FDF31871DA8E0020F90C /* www */ = {isa = PBXFileReference; lastKnownFileType = folder; name = www; path = ../../www; sourceTree = "<group>"; };
 		EB87FDF41871DAF40020F90C /* config.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = config.xml; path = ../../config.xml; sourceTree = "<group>"; };
 		ED33DF2A687741AEAF9F8254 /* Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Bridging-Header.h"; sourceTree = "<group>"; };
+		F29843DECC764F6E9F85BD23 /* QuartzCore.framework */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		F4CE38FE524E4CF98DCE1457 /* BidchatAnimations.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = BidchatAnimations.m; path = "bidchat-plugin-animations/BidchatAnimations.m"; sourceTree = "<group>"; };
 		F840E1F0165FE0F500CFE078 /* config.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = config.xml; path = BidchatAnimationPluginCheck/config.xml; sourceTree = "<group>"; };
-		F4CE38FE524E4CF98DCE1457 /* BidchatAnimations.m */ = {isa = PBXFileReference; name = "BidchatAnimations.m"; path = "bidchat-plugin-animations/BidchatAnimations.m"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; explicitFileType = undefined; includeInIndex = 0; };
-		7D5F539C96F74F30992E78E0 /* email.png */ = {isa = PBXFileReference; name = "email.png"; path = "bidchat-plugin-animations/email.png"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		753C7DEAEAC748FF81F7B4C3 /* facebook.png */ = {isa = PBXFileReference; name = "facebook.png"; path = "bidchat-plugin-animations/facebook.png"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		DB5E2C95B0984F72905CE51D /* google-plus.png */ = {isa = PBXFileReference; name = "google-plus.png"; path = "bidchat-plugin-animations/google-plus.png"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		BB7206C214DE4A20A3D9F1DB /* instagram.png */ = {isa = PBXFileReference; name = "instagram.png"; path = "bidchat-plugin-animations/instagram.png"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		9F57553E0377424FBCA1A263 /* messages.png */ = {isa = PBXFileReference; name = "messages.png"; path = "bidchat-plugin-animations/messages.png"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		55947E9573B74074B6698AEF /* twitter.png */ = {isa = PBXFileReference; name = "twitter.png"; path = "bidchat-plugin-animations/twitter.png"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		F29843DECC764F6E9F85BD23 /* QuartzCore.framework */ = {isa = PBXFileReference; name = "QuartzCore.framework"; path = "System/Library/Frameworks/QuartzCore.framework"; sourceTree = SDKROOT; fileEncoding = undefined; lastKnownFileType = wrapper.framework; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -179,6 +217,8 @@
 		307C750510C5A3420062BCA9 /* Plugins */ = {
 			isa = PBXGroup;
 			children = (
+				78F3C58F1E6426870015FB3C /* CountdownLabel.swift */,
+				78F3C5901E6426870015FB3C /* LTMorphingLabel */,
 				F4CE38FE524E4CF98DCE1457 /* BidchatAnimations.m */,
 				7D5F539C96F74F30992E78E0 /* email.png */,
 				753C7DEAEAC748FF81F7B4C3 /* facebook.png */,
@@ -190,6 +230,39 @@
 			name = Plugins;
 			path = BidchatAnimationPluginCheck/Plugins;
 			sourceTree = SOURCE_ROOT;
+		};
+		78F3C5901E6426870015FB3C /* LTMorphingLabel */ = {
+			isa = PBXGroup;
+			children = (
+				78F3C5911E6426870015FB3C /* LTCharacterDiffResult.swift */,
+				78F3C5921E6426870015FB3C /* LTCharacterLimbo.swift */,
+				78F3C5931E6426870015FB3C /* LTEasing.swift */,
+				78F3C5941E6426870015FB3C /* LTEmitterView.swift */,
+				78F3C5951E6426870015FB3C /* LTMorphingEffect.swift */,
+				78F3C5961E6426870015FB3C /* LTMorphingLabel+Anvil.swift */,
+				78F3C5971E6426870015FB3C /* LTMorphingLabel+Burn.swift */,
+				78F3C5981E6426870015FB3C /* LTMorphingLabel+Evaporate.swift */,
+				78F3C5991E6426870015FB3C /* LTMorphingLabel+Fall.swift */,
+				78F3C59A1E6426870015FB3C /* LTMorphingLabel+Pixelate.swift */,
+				78F3C59B1E6426870015FB3C /* LTMorphingLabel+Sparkle.swift */,
+				78F3C59C1E6426870015FB3C /* LTMorphingLabel.h */,
+				78F3C59D1E6426870015FB3C /* LTMorphingLabel.swift */,
+				78F3C59E1E6426870015FB3C /* LTStringDiffResult.swift */,
+				78F3C59F1E6426870015FB3C /* Particles */,
+			);
+			path = LTMorphingLabel;
+			sourceTree = "<group>";
+		};
+		78F3C59F1E6426870015FB3C /* Particles */ = {
+			isa = PBXGroup;
+			children = (
+				78F3C5A01E6426870015FB3C /* Fire.png */,
+				78F3C5A11E6426870015FB3C /* Fragment.png */,
+				78F3C5A21E6426870015FB3C /* Smoke.png */,
+				78F3C5A31E6426870015FB3C /* Sparkle.png */,
+			);
+			path = Particles;
+			sourceTree = "<group>";
 		};
 		C45EC5B83DF6E0395D8AF39E /* Pods */ = {
 			isa = PBXGroup;
@@ -283,9 +356,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				78F3C5B31E6426870015FB3C /* Fragment.png in Resources */,
 				302D95F214D2391D003F00A1 /* MainViewController.xib in Resources */,
+				78F3C5B21E6426870015FB3C /* Fire.png in Resources */,
 				0207DA581B56EA530066E2B4 /* Images.xcassets in Resources */,
 				6AFF5BF91D6E424B00AB3073 /* CDVLaunchScreen.storyboard in Resources */,
+				78F3C5B51E6426870015FB3C /* Sparkle.png in Resources */,
+				78F3C5B41E6426870015FB3C /* Smoke.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -359,16 +436,30 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				78F3C5A71E6426870015FB3C /* LTEasing.swift in Sources */,
+				78F3C5AF1E6426870015FB3C /* LTMorphingLabel+Sparkle.swift in Sources */,
+				78F3C5B11E6426870015FB3C /* LTStringDiffResult.swift in Sources */,
+				78F3C5AB1E6426870015FB3C /* LTMorphingLabel+Burn.swift in Sources */,
 				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
+				78F3C5A91E6426870015FB3C /* LTMorphingEffect.swift in Sources */,
+				78F3C5A61E6426870015FB3C /* LTCharacterLimbo.swift in Sources */,
+				78F3C5B01E6426870015FB3C /* LTMorphingLabel.swift in Sources */,
+				78F3C5AA1E6426870015FB3C /* LTMorphingLabel+Anvil.swift in Sources */,
+				78F3C5A41E6426870015FB3C /* CountdownLabel.swift in Sources */,
 				1D3623260D0F684500981E51 /* AppDelegate.m in Sources */,
+				78F3C5A81E6426870015FB3C /* LTEmitterView.swift in Sources */,
+				78F3C5A51E6426870015FB3C /* LTCharacterDiffResult.swift in Sources */,
 				302D95F114D2391D003F00A1 /* MainViewController.m in Sources */,
+				78F3C5AD1E6426870015FB3C /* LTMorphingLabel+Fall.swift in Sources */,
 				3180426E2B2F46F48AE7EF2F /* BidchatAnimations.m in Sources */,
-				430BF3CB8D18468394919424 /* email.png in Resources */,
-				67BB60C3C0684F17AA9E3F60 /* facebook.png in Resources */,
-				8D3894328DB4466A88DA5050 /* google-plus.png in Resources */,
-				62A1B4AD32C34098845ADBD2 /* instagram.png in Resources */,
-				38967C75CD184F56B671A5D8 /* messages.png in Resources */,
-				419F09C63A3944BABEBE55C3 /* twitter.png in Resources */,
+				430BF3CB8D18468394919424 /* email.png in Sources */,
+				67BB60C3C0684F17AA9E3F60 /* facebook.png in Sources */,
+				78F3C5AC1E6426870015FB3C /* LTMorphingLabel+Evaporate.swift in Sources */,
+				8D3894328DB4466A88DA5050 /* google-plus.png in Sources */,
+				62A1B4AD32C34098845ADBD2 /* instagram.png in Sources */,
+				38967C75CD184F56B671A5D8 /* messages.png in Sources */,
+				78F3C5AE1E6426870015FB3C /* LTMorphingLabel+Pixelate.swift in Sources */,
+				419F09C63A3944BABEBE55C3 /* twitter.png in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -387,12 +478,14 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 3047A50F1AB8059700498E2A /* build-debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
 				COPY_PHASE_STRIP = NO;
+				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = 3553G4H8G3;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -404,10 +497,9 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				PRODUCT_NAME = BidchatAnimationPluginCheck;
-				TARGETED_DEVICE_FAMILY = "1,2";
 				SWIFT_OBJC_BRIDGING_HEADER = "$(PROJECT_DIR)/$(PROJECT_NAME)/Bridging-Header.h";
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 2.3;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -415,12 +507,14 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 3047A5101AB8059700498E2A /* build-release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
 				COPY_PHASE_STRIP = YES;
+				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = 3553G4H8G3;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "BidchatAnimationPluginCheck/BidchatAnimationPluginCheck-Prefix.pch";
@@ -430,10 +524,9 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				PRODUCT_NAME = BidchatAnimationPluginCheck;
-				TARGETED_DEVICE_FAMILY = "1,2";
 				SWIFT_OBJC_BRIDGING_HEADER = "$(PROJECT_DIR)/$(PROJECT_NAME)/Bridging-Header.h";
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 2.3;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
@@ -441,6 +534,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 3047A5111AB8059700498E2A /* build.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
@@ -461,7 +555,6 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = NO;
 				SWIFT_OBJC_BRIDGING_HEADER = "$(PROJECT_DIR)/$(PROJECT_NAME)/Bridging-Header.h";
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -470,6 +563,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 3047A5111AB8059700498E2A /* build.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
@@ -489,7 +583,6 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = NO;
 				SWIFT_OBJC_BRIDGING_HEADER = "$(PROJECT_DIR)/$(PROJECT_NAME)/Bridging-Header.h";
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;

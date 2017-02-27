@@ -4,7 +4,10 @@
 #import "PopMenu.h"
 #import <QuartzCore/QuartzCore.h>
 #import "UIView+DCAnimationKit.h"
+#import "BidchatAnimationPluginCheck-Swift.h"
+//#import "BidchatiOSApp-Swift.h"
 
+#define kTagtimeOverLabel  111111
 
 @interface NSMutableArray (QueueAdditions)
 - (id) dequeue;
@@ -31,9 +34,13 @@
 }
 @end
 
-@interface BidchatAnimations : CDVPlugin {
+@interface BidchatAnimations : CDVPlugin <CountdownLabelDelegate, LTMorphingLabelDelegate> {
 
     NSMutableArray *springViews;
+    
+    CountdownLabel * countdownLabel;
+    NSString * countdownTimerCallback;
+    LTMorphingLabel *timeOverLabel;
 }
 
 @end
@@ -54,17 +61,29 @@
 //     [self.commandDelegate sendPluginResult:pluginResult callbackId:command.callbackId];
 // }
 
+//- (void) startCountdownTimer :(CDVInvokedUrlCommand*)command {
 - (void) showCountdownTimer :(CDVInvokedUrlCommand*)command {
 
-    int timerStartValue = [command.arguments objectAtIndex:0];
-    NSString* callback = [command.arguments objectAtIndex:1];
+    NSNumber *timerStartValue = [command.arguments objectAtIndex:0];
+    countdownTimerCallback = [command.arguments objectAtIndex:1];
 
-    //TODO: Implement Countdown Timer
+    countdownLabel = [[CountdownLabel alloc] initWithFrame:CGRectMake(40, 100, 200, 100) minutes: [timerStartValue intValue]];
+    [countdownLabel setTextColor:[UIColor orangeColor]];
+    [countdownLabel setCountdownDelegate:self];
+    
+    [countdownLabel setFont:[UIFont fontWithName:@"Courier" size: 30]];//[UIFont labelFontSize]]];
+    [countdownLabel setBidchatAnimation];
+        
+    [self.viewController.view addSubview:countdownLabel];
+    [countdownLabel start:nil];
+}
 
-    // callback
-    // NSString* jsMethod = [NSString stringWithFormat:@"%@(%ld);", callback, (long)selectedItem.index];
-    [self.webViewEngine evaluateJavaScript:callback completionHandler:^(id identifier, NSError *error) {}];
-
+- (void) stopCountdownTimer {
+    
+    if(countdownLabel != nil) {
+        [countdownLabel removeFromSuperview];
+        countdownLabel = nil;
+    }
 }
 
 /**
@@ -136,7 +155,10 @@
 //    int x = arc4random_uniform((u_int32_t) CGRectGetWidth(self.mainViewController.view.frame)); // Random x
     int y = arc4random_uniform((u_int32_t) CGRectGetHeight(self.viewController.view.frame)); // Random y
     
-    UIView *moveView = [[UIView alloc] initWithFrame:CGRectMake(40, y, 200, 100)];
+//    UIView *moveView = [[UIView alloc] initWithFrame:CGRectMake(40, y, 200, 100)];
+
+    UILabel *moveView = [[UILabel alloc] initWithFrame:CGRectMake(40, y, 200, 100)];
+    [moveView setText:textToShow];
     
     moveView.backgroundColor = [UIColor colorWithHue:drand48() saturation:1.0 brightness:1.0 alpha:1.0];
     [self.viewController.view addSubview:moveView];
@@ -167,6 +189,40 @@
                          }];
                      }
                      completion:NULL];
+}
+
+
+#pragma mark LTMorphingLabelDelegate Methods
+
+- (void) countdownFinished {
+    
+    NSLog(@"countdownFinished");
+    
+    [countdownLabel removeFromSuperview];
+    countdownLabel = nil;
+    
+    timeOverLabel = [[LTMorphingLabel alloc] initWithFrame:CGRectMake(40, 100, 200, 100)];
+    [timeOverLabel setText:@"Time Over"];
+    [timeOverLabel setTextColor:[UIColor orangeColor]];
+    [timeOverLabel setFont:[UIFont fontWithName:@"Courier" size: 30]];//[UIFont labelFontSize]]];
+    [timeOverLabel setMorphingEffect:LTMorphingEffectSparkle];
+    [timeOverLabel setDelegate:self];
+    [timeOverLabel setTag:kTagtimeOverLabel];
+    [self.viewController.view addSubview:timeOverLabel];
+}
+
+// TODO: Stop Counter
+-(void) morphingDidComplete:(LTMorphingLabel *)label {
+    
+    if(label.tag == kTagtimeOverLabel) {
+        
+        [timeOverLabel removeFromSuperview];
+        timeOverLabel = nil;
+        
+        // callback
+        NSString* jsMethod = [NSString stringWithFormat:@"%@();", countdownTimerCallback];
+        [self.webViewEngine evaluateJavaScript:jsMethod completionHandler:^(id identifier, NSError *error) {}];
+    }
 }
 
 @end

@@ -3,6 +3,17 @@
    version = "1.0">
    <ContextStates>
       <ContextState
+         contextName = "CountdownLabel.(endOfTimer in _8810B82F388F9AB31F1AB67413CE09AF).getter [inlined]:CountdownLabel.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "currentTime">
+            </PersistentString>
+            <PersistentString
+               value = "timeCounted">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
          contextName = "-[BidchatAnimations showCountdownTimer:]:BidchatAnimations.m">
          <PersistentStrings>
             <PersistentString
