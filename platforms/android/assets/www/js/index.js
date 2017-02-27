@@ -25,7 +25,7 @@ var app = {
         });
 
         document.getElementById("buttonCountdown").addEventListener("click", function () {
-            cordova.plugins.BidchatAnimations.showCountdownTimer(null, null, "onCountdownComplete")
+            cordova.plugins.BidchatAnimations.showCountdownTimer(null, null, 10, "onCountdownComplete")
         });
     }
 };
