@@ -86,7 +86,7 @@
 		</data>
 		<key>CDVLaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib</key>
 		<data>
-		R/H4LU9kSyEsZ15IXBhuDA4omKU=
+		AGYctczxVflnoibWFK7wBYTkT24=
 		</data>
 		<key>CDVLaunchScreen.storyboardc/Info.plist</key>
 		<data>
@@ -94,7 +94,7 @@
 		</data>
 		<key>CDVLaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib</key>
 		<data>
-		Z4bBYq9sbvcfyRkCKw+vHYGOXFg=
+		El9zIRmxWuonsy5kVMmbqBA53Dw=
 		</data>
 		<key>Info.plist</key>
 		<data>
@@ -158,7 +158,7 @@
 		</data>
 		<key>MainViewController.nib</key>
 		<data>
-		cAYD4TtkNayHxWrprWZZRa/DsyA=
+		elSzECApr8/xmj+P7/tP29U/xHw=
 		</data>
 		<key>PkgInfo</key>
 		<data>
@@ -214,7 +214,7 @@
 		</data>
 		<key>www/cordova_plugins.js</key>
 		<data>
-		9Wm+7nxd+aOva4r7PsZVDlm/tDk=
+		KbaSKAqpu2YAMKJlF3asGeaKS2w=
 		</data>
 		<key>www/css/index.css</key>
 		<data>
@@ -226,15 +226,15 @@
 		</data>
 		<key>www/index.html</key>
 		<data>
-		wbLNgGCvDDeBc2Uz70K7Zxlv+BA=
+		oswmmg20InUaOgtQ/ZX6ydp7kq8=
 		</data>
 		<key>www/js/index.js</key>
 		<data>
-		XkT6Fd2jQpTGJIAEm0ImIjnrenE=
+		dXNACKOX70QBNGCSCOJ1EP3b+KE=
 		</data>
 		<key>www/plugins/bidchat-plugin-animations/www/BidchatAnimations.js</key>
 		<data>
-		RPcysx9ENOvRqiSMJu8ojnfKuBY=
+		dIAv8yxyr67pmQirBhXzFuT/oh8=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -463,11 +463,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			R/H4LU9kSyEsZ15IXBhuDA4omKU=
+			AGYctczxVflnoibWFK7wBYTkT24=
 			</data>
 			<key>hash2</key>
 			<data>
-			ec8Rq5tT4Uu8W/5oGh/CGrABb22n74ZgV2HRMaTjX04=
+			OHAeRCLH1g/j/ynUzrjp6SKK9khMN9wnZ6m0dCspCPQ=
 			</data>
 		</dict>
 		<key>CDVLaunchScreen.storyboardc/Info.plist</key>
@@ -485,11 +485,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			Z4bBYq9sbvcfyRkCKw+vHYGOXFg=
+			El9zIRmxWuonsy5kVMmbqBA53Dw=
 			</data>
 			<key>hash2</key>
 			<data>
-			m4BDMaeOaW8TF9otyolhEOBWF1ivhgBfHVxZqY4boD0=
+			/suzBcRHvNYopmzjND1gh2AkW++AgHVbuorNo+vEv9o=
 			</data>
 		</dict>
 		<key>LaunchImage-568h@2x.png</key>
@@ -650,11 +650,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			cAYD4TtkNayHxWrprWZZRa/DsyA=
+			elSzECApr8/xmj+P7/tP29U/xHw=
 			</data>
 			<key>hash2</key>
 			<data>
-			skglTfgmXk+lSuqBQTjTMrkJKKmqW3E8rslb/o4YYQc=
+			urs2pFGI9PvAyjD/nzUyk/R1i7fwfNEEeJV53PuLyOE=
 			</data>
 		</dict>
 		<key>archived-expanded-entitlements.xcent</key>
@@ -793,11 +793,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			9Wm+7nxd+aOva4r7PsZVDlm/tDk=
+			KbaSKAqpu2YAMKJlF3asGeaKS2w=
 			</data>
 			<key>hash2</key>
 			<data>
-			HcsHDVXKyj7Vn6PVXJm+NbXu1PFQPH2/u3eXrmuYwlw=
+			mYUUNzSSwxJwl++bzSIqk9eMtgb926POHFJSNbu5jas=
 			</data>
 		</dict>
 		<key>www/css/index.css</key>
@@ -826,33 +826,33 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			wbLNgGCvDDeBc2Uz70K7Zxlv+BA=
+			oswmmg20InUaOgtQ/ZX6ydp7kq8=
 			</data>
 			<key>hash2</key>
 			<data>
-			5GoMPXEH14FV2MMp5E8mOf6rbgHk9zIoyJ58baQqs+4=
+			v9y0GjVCtUzZ596Pq0cTC5IRzVhWFZ97IpaGexqzwKw=
 			</data>
 		</dict>
 		<key>www/js/index.js</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			XkT6Fd2jQpTGJIAEm0ImIjnrenE=
+			dXNACKOX70QBNGCSCOJ1EP3b+KE=
 			</data>
 			<key>hash2</key>
 			<data>
-			A/ez82/otfIVuDL0Etg74/sSmCfBeypyK2k0hm8Yaro=
+			W5TvULVr+E69SO08v6BcS7gdztL4BWtlLcXMdSJdILo=
 			</data>
 		</dict>
 		<key>www/plugins/bidchat-plugin-animations/www/BidchatAnimations.js</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			RPcysx9ENOvRqiSMJu8ojnfKuBY=
+			dIAv8yxyr67pmQirBhXzFuT/oh8=
 			</data>
 			<key>hash2</key>
 			<data>
-			afKAICw2pCzp5WgAv7LA2PkRxE+hIrG/WNL7i+Pykt0=
+			rvQpFUXGKNfUblCm7PT7sjUqtFmxD1FBv/K/M+QhjPE=
 			</data>
 		</dict>
 	</dict>

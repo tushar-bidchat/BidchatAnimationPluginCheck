@@ -24,6 +24,9 @@ var app = {
             cordova.plugins.BidchatAnimations.showFlashNotification(null, null, "Selected Share Button")
         });
 
+        document.getElementById("buttonCountdown").addEventListener("click", function () {
+            cordova.plugins.BidchatAnimations.showCountdownTimer(null, null, 10, "onCountdownComplete")
+        });
     }
 };
 
@@ -53,4 +56,8 @@ var SelectedShareButton = function (buttonId) {
         default:
             break;
     }
+}
+
+var onCountdownComplete = function () {
+    console.log('onCountdownComplete Called');
 }
