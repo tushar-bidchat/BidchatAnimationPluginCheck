@@ -60,7 +60,8 @@
         <source-file src="src/ios/resources/twitter.png" />
 
         <framework src="QuartzCore.framework" />
-
+        
+        <dependency id="cordova-plugin-swift-support" version="~3.1.1"/>
     </platform>
 
     <platform name="ios">
@@ -68,5 +69,7 @@
         <preference name="pods_use_frameworks" value="true" />
         <pod id="PopMenu" />
         <pod id="DCAnimationKit" /> <!-- For Flash Notifications-->
+        <!--<pod id="CountdownLabel" /> -->
+        <!-- For Countdown Timer-->
     </platform>
 </plugin>

@@ -54,6 +54,18 @@
 //     [self.commandDelegate sendPluginResult:pluginResult callbackId:command.callbackId];
 // }
 
+- (void) showCountdownTimer :(CDVInvokedUrlCommand*)command {
+
+    int timerStartValue = [command.arguments objectAtIndex:0];
+    NSString* callback = [command.arguments objectAtIndex:1];
+
+    //TODO: Implement Countdown Timer
+
+    // callback
+    // NSString* jsMethod = [NSString stringWithFormat:@"%@(%ld);", callback, (long)selectedItem.index];
+    [self.webViewEngine evaluateJavaScript:callback completionHandler:^(id identifier, NSError *error) {}];
+
+}
 
 /**
  * Displays pop menu

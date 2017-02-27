@@ -17,5 +17,9 @@
             "PACKAGE_NAME": "com.bidchat.AnimationPluginCheck"
         }
     },
-    "dependent_plugins": {}
+    "dependent_plugins": {
+        "cordova-plugin-swift-support": {
+            "PACKAGE_NAME": "com.bidchat.AnimationPluginCheck"
+        }
+    }
 }

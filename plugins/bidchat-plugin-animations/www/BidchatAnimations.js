@@ -10,6 +10,10 @@ var BidchatAnimations = (function() {
         return cordova.exec(success, error, "BidchatAnimations", "showFlashNotification", [textToSHow]);
     };
 
+    BidchatAnimations.showCountdownTimer = function(success, error, timerStartValue, callbackMethod) {
+        return cordova.exec(success, error, "BidchatAnimations", "showCountdownTimer", [timerStartValue, callbackMethod]);
+    };
+
     return BidchatAnimations;
 });
 

@@ -14,14 +14,14 @@
 		302D95F214D2391D003F00A1 /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 302D95F014D2391D003F00A1 /* MainViewController.xib */; };
 		6AFF5BF91D6E424B00AB3073 /* CDVLaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6AFF5BF81D6E424B00AB3073 /* CDVLaunchScreen.storyboard */; };
 		E77A897CE57C0A134E9AA27B /* libPods-BidchatAnimationPluginCheck.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CA7DB33D6724789F60C19F59 /* libPods-BidchatAnimationPluginCheck.a */; };
-		1E72CF279F4F4938B4BA2AEF /* BidchatAnimations.m in Sources */ = {isa = PBXBuildFile; fileRef = 34BD133E907240A58898BD00 /* BidchatAnimations.m */; };
-		59E4BAC4A6A34CDAAB2673A8 /* email.png in Resources */ = {isa = PBXBuildFile; fileRef = B7FA8E8CC56B450D8C3F783F /* email.png */; };
-		566BD8EB91BE40C8B76B5D70 /* facebook.png in Resources */ = {isa = PBXBuildFile; fileRef = BD5651368EE6499AA0BF94FC /* facebook.png */; };
-		EA0F22B8AD014C9E984A8EF8 /* google-plus.png in Resources */ = {isa = PBXBuildFile; fileRef = 331296AE19B24CA9B73BB841 /* google-plus.png */; };
-		3A44BD548C6F44C4A1F82C67 /* instagram.png in Resources */ = {isa = PBXBuildFile; fileRef = D2A98EAD9EA345AB9951FD7F /* instagram.png */; };
-		4995DC0FA1A6451592BCC48F /* messages.png in Resources */ = {isa = PBXBuildFile; fileRef = F40006A3B66B47F68CB987C8 /* messages.png */; };
-		DF9D8DC64B154C209DFC617A /* twitter.png in Resources */ = {isa = PBXBuildFile; fileRef = 5F093E49750F498F9BD8C6CF /* twitter.png */; };
-		C95D687548104742A4FAFDDA /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18DF98588E244D8A886D14DA /* QuartzCore.framework */; };
+		3180426E2B2F46F48AE7EF2F /* BidchatAnimations.m in Sources */ = {isa = PBXBuildFile; fileRef = F4CE38FE524E4CF98DCE1457 /* BidchatAnimations.m */; };
+		430BF3CB8D18468394919424 /* email.png in Resources */ = {isa = PBXBuildFile; fileRef = 7D5F539C96F74F30992E78E0 /* email.png */; };
+		67BB60C3C0684F17AA9E3F60 /* facebook.png in Resources */ = {isa = PBXBuildFile; fileRef = 753C7DEAEAC748FF81F7B4C3 /* facebook.png */; };
+		8D3894328DB4466A88DA5050 /* google-plus.png in Resources */ = {isa = PBXBuildFile; fileRef = DB5E2C95B0984F72905CE51D /* google-plus.png */; };
+		62A1B4AD32C34098845ADBD2 /* instagram.png in Resources */ = {isa = PBXBuildFile; fileRef = BB7206C214DE4A20A3D9F1DB /* instagram.png */; };
+		38967C75CD184F56B671A5D8 /* messages.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F57553E0377424FBCA1A263 /* messages.png */; };
+		419F09C63A3944BABEBE55C3 /* twitter.png in Resources */ = {isa = PBXBuildFile; fileRef = 55947E9573B74074B6698AEF /* twitter.png */; };
+		92B99984AC874C3A903A9672 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F29843DECC764F6E9F85BD23 /* QuartzCore.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,14 +63,14 @@
 		EB87FDF41871DAF40020F90C /* config.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = config.xml; path = ../../config.xml; sourceTree = "<group>"; };
 		ED33DF2A687741AEAF9F8254 /* Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Bridging-Header.h"; sourceTree = "<group>"; };
 		F840E1F0165FE0F500CFE078 /* config.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = config.xml; path = BidchatAnimationPluginCheck/config.xml; sourceTree = "<group>"; };
-		34BD133E907240A58898BD00 /* BidchatAnimations.m */ = {isa = PBXFileReference; name = "BidchatAnimations.m"; path = "bidchat-plugin-animations/BidchatAnimations.m"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; explicitFileType = undefined; includeInIndex = 0; };
-		B7FA8E8CC56B450D8C3F783F /* email.png */ = {isa = PBXFileReference; name = "email.png"; path = "bidchat-plugin-animations/email.png"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		BD5651368EE6499AA0BF94FC /* facebook.png */ = {isa = PBXFileReference; name = "facebook.png"; path = "bidchat-plugin-animations/facebook.png"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		331296AE19B24CA9B73BB841 /* google-plus.png */ = {isa = PBXFileReference; name = "google-plus.png"; path = "bidchat-plugin-animations/google-plus.png"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		D2A98EAD9EA345AB9951FD7F /* instagram.png */ = {isa = PBXFileReference; name = "instagram.png"; path = "bidchat-plugin-animations/instagram.png"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		F40006A3B66B47F68CB987C8 /* messages.png */ = {isa = PBXFileReference; name = "messages.png"; path = "bidchat-plugin-animations/messages.png"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		5F093E49750F498F9BD8C6CF /* twitter.png */ = {isa = PBXFileReference; name = "twitter.png"; path = "bidchat-plugin-animations/twitter.png"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		18DF98588E244D8A886D14DA /* QuartzCore.framework */ = {isa = PBXFileReference; name = "QuartzCore.framework"; path = "System/Library/Frameworks/QuartzCore.framework"; sourceTree = SDKROOT; fileEncoding = undefined; lastKnownFileType = wrapper.framework; explicitFileType = undefined; includeInIndex = 0; };
+		F4CE38FE524E4CF98DCE1457 /* BidchatAnimations.m */ = {isa = PBXFileReference; name = "BidchatAnimations.m"; path = "bidchat-plugin-animations/BidchatAnimations.m"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; explicitFileType = undefined; includeInIndex = 0; };
+		7D5F539C96F74F30992E78E0 /* email.png */ = {isa = PBXFileReference; name = "email.png"; path = "bidchat-plugin-animations/email.png"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		753C7DEAEAC748FF81F7B4C3 /* facebook.png */ = {isa = PBXFileReference; name = "facebook.png"; path = "bidchat-plugin-animations/facebook.png"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		DB5E2C95B0984F72905CE51D /* google-plus.png */ = {isa = PBXFileReference; name = "google-plus.png"; path = "bidchat-plugin-animations/google-plus.png"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		BB7206C214DE4A20A3D9F1DB /* instagram.png */ = {isa = PBXFileReference; name = "instagram.png"; path = "bidchat-plugin-animations/instagram.png"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		9F57553E0377424FBCA1A263 /* messages.png */ = {isa = PBXFileReference; name = "messages.png"; path = "bidchat-plugin-animations/messages.png"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		55947E9573B74074B6698AEF /* twitter.png */ = {isa = PBXFileReference; name = "twitter.png"; path = "bidchat-plugin-animations/twitter.png"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		F29843DECC764F6E9F85BD23 /* QuartzCore.framework */ = {isa = PBXFileReference; name = "QuartzCore.framework"; path = "System/Library/Frameworks/QuartzCore.framework"; sourceTree = SDKROOT; fileEncoding = undefined; lastKnownFileType = wrapper.framework; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,7 +80,7 @@
 			files = (
 				301BF552109A68D80062928A /* libCordova.a in Frameworks */,
 				E77A897CE57C0A134E9AA27B /* libPods-BidchatAnimationPluginCheck.a in Frameworks */,
-				C95D687548104742A4FAFDDA /* QuartzCore.framework in Frameworks */,
+				92B99984AC874C3A903A9672 /* QuartzCore.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -153,7 +153,7 @@
 			isa = PBXGroup;
 			children = (
 				CA7DB33D6724789F60C19F59 /* libPods-BidchatAnimationPluginCheck.a */,
-				18DF98588E244D8A886D14DA /* QuartzCore.framework */,
+				F29843DECC764F6E9F85BD23 /* QuartzCore.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -179,13 +179,13 @@
 		307C750510C5A3420062BCA9 /* Plugins */ = {
 			isa = PBXGroup;
 			children = (
-				34BD133E907240A58898BD00 /* BidchatAnimations.m */,
-				B7FA8E8CC56B450D8C3F783F /* email.png */,
-				BD5651368EE6499AA0BF94FC /* facebook.png */,
-				331296AE19B24CA9B73BB841 /* google-plus.png */,
-				D2A98EAD9EA345AB9951FD7F /* instagram.png */,
-				F40006A3B66B47F68CB987C8 /* messages.png */,
-				5F093E49750F498F9BD8C6CF /* twitter.png */,
+				F4CE38FE524E4CF98DCE1457 /* BidchatAnimations.m */,
+				7D5F539C96F74F30992E78E0 /* email.png */,
+				753C7DEAEAC748FF81F7B4C3 /* facebook.png */,
+				DB5E2C95B0984F72905CE51D /* google-plus.png */,
+				BB7206C214DE4A20A3D9F1DB /* instagram.png */,
+				9F57553E0377424FBCA1A263 /* messages.png */,
+				55947E9573B74074B6698AEF /* twitter.png */,
 			);
 			name = Plugins;
 			path = BidchatAnimationPluginCheck/Plugins;
@@ -362,13 +362,13 @@
 				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
 				1D3623260D0F684500981E51 /* AppDelegate.m in Sources */,
 				302D95F114D2391D003F00A1 /* MainViewController.m in Sources */,
-				1E72CF279F4F4938B4BA2AEF /* BidchatAnimations.m in Sources */,
-				59E4BAC4A6A34CDAAB2673A8 /* email.png in Resources */,
-				566BD8EB91BE40C8B76B5D70 /* facebook.png in Resources */,
-				EA0F22B8AD014C9E984A8EF8 /* google-plus.png in Resources */,
-				3A44BD548C6F44C4A1F82C67 /* instagram.png in Resources */,
-				4995DC0FA1A6451592BCC48F /* messages.png in Resources */,
-				DF9D8DC64B154C209DFC617A /* twitter.png in Resources */,
+				3180426E2B2F46F48AE7EF2F /* BidchatAnimations.m in Sources */,
+				430BF3CB8D18468394919424 /* email.png in Resources */,
+				67BB60C3C0684F17AA9E3F60 /* facebook.png in Resources */,
+				8D3894328DB4466A88DA5050 /* google-plus.png in Resources */,
+				62A1B4AD32C34098845ADBD2 /* instagram.png in Resources */,
+				38967C75CD184F56B671A5D8 /* messages.png in Resources */,
+				419F09C63A3944BABEBE55C3 /* twitter.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -405,6 +405,9 @@
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				PRODUCT_NAME = BidchatAnimationPluginCheck;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(PROJECT_DIR)/$(PROJECT_NAME)/Bridging-Header.h";
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -428,6 +431,9 @@
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				PRODUCT_NAME = BidchatAnimationPluginCheck;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(PROJECT_DIR)/$(PROJECT_NAME)/Bridging-Header.h";
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
@@ -454,6 +460,9 @@
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = NO;
+				SWIFT_OBJC_BRIDGING_HEADER = "$(PROJECT_DIR)/$(PROJECT_NAME)/Bridging-Header.h";
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -479,6 +488,9 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = NO;
+				SWIFT_OBJC_BRIDGING_HEADER = "$(PROJECT_DIR)/$(PROJECT_NAME)/Bridging-Header.h";
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};

@@ -14,6 +14,7 @@ module.exports.metadata =
 {
     "cordova-plugin-whitelist": "1.3.1",
     "cordova-plugin-cocoapod-support": "1.3.0",
+    "cordova-plugin-swift-support": "3.1.1",
     "bidchat-plugin-animations": "0.0.1"
 };
 // BOTTOM OF METADATA

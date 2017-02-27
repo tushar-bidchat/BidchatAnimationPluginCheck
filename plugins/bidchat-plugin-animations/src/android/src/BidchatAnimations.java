@@ -28,7 +28,20 @@ public class BidchatAnimations extends CordovaPlugin implements PopMenuItemClick
             this.showShareMenu(context, callback);
             return true;
         }
+
+        if (action.equals("showCountdownTimer")) {
+            int timerStartValue = args.getInt(0);
+            String callback = args.getString(1);
+            this.showCountdownTimer(timerStartValue, callback);  
+            return true;
+        }
+
         return false;
+    }
+
+    public void showCountdownTimer(int timerStartValue, String callback) {
+
+        this.webView.sendJavascript(callback + "( );");
     }
 
     public void showShareMenu(Context context, String callback) {
