@@ -1,7 +1,8 @@
+var isCountdownTimerOn;
 
 var app = {
     // Application Constructor
-    initialize: function() {
+    initialize: function () {
         document.addEventListener('deviceready', this.onDeviceReady.bind(this), false);
     },
 
@@ -9,12 +10,12 @@ var app = {
     //
     // Bind any cordova events here. Common events are:
     // 'pause', 'resume', etc.
-    onDeviceReady: function() {
+    onDeviceReady: function () {
         this.receivedEvent('deviceready');
     },
 
     // Update DOM on a Received Event
-    receivedEvent: function(id) {
+    receivedEvent: function (id) {
 
         document.getElementById("buttonShare").addEventListener("click", function () {
             cordova.plugins.BidchatAnimations.showShareMenu(null, null, "SelectedShareButton");
@@ -25,7 +26,15 @@ var app = {
         });
 
         document.getElementById("buttonCountdown").addEventListener("click", function () {
-            cordova.plugins.BidchatAnimations.showCountdownTimer(null, null, 10, "onCountdownComplete")
+            if (isCountdownTimerOn) {
+                isCountdownTimerOn = false;
+                cordova.plugins.BidchatAnimations.stopCountdownTimer();
+                document.getElementById("buttonCountdown").innerHTML("Countdown Start");
+            } else {
+                isCountdownTimerOn = true;
+                cordova.plugins.BidchatAnimations.startCountdownTimer(null, null, 10, "onCountdownComplete");
+                document.getElementById("buttonCountdown").innerHTML("Countdown Stop");
+            }
         });
     }
 };
@@ -60,4 +69,5 @@ var SelectedShareButton = function (buttonId) {
 
 var onCountdownComplete = function () {
     console.log('onCountdownComplete Called');
+    document.getElementById("buttonCountdown").innerHTML("Countdown Start");
 }
