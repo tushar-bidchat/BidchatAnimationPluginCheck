@@ -52,15 +52,42 @@
 
         <source-file src="src/ios/BidchatAnimations.m" />
 
-        <source-file src="src/ios/resources/email.png" />
-        <source-file src="src/ios/resources/facebook.png" />
-        <source-file src="src/ios/resources/google-plus.png" />
-        <source-file src="src/ios/resources/instagram.png" />
-        <source-file src="src/ios/resources/messages.png" />
-        <source-file src="src/ios/resources/twitter.png" />
+        <!-- For Share Menu -->
+        <source-file src="src/ios/resources/email.png" target-dir="resource"/>
+        <source-file src="src/ios/resources/facebook.png" target-dir="resource"/>
+        <source-file src="src/ios/resources/google-plus.png" target-dir="resource"/>
+        <source-file src="src/ios/resources/instagram.png" target-dir="resource"/>
+        <source-file src="src/ios/resources/messages.png" target-dir="resource"/>
+        <source-file src="src/ios/resources/twitter.png" target-dir="resource"/>
 
+        <!-- For Countdown Animation Label -->
+        <source-file src="src/ios/CountdownLabel.swift" />
+
+        <!-- For LTMorphing Label Library -->
+        <header-file src="src/ios/LTMorphingLabel/LTMorphingLabel.h" target-dir="LTMorphingLabel"/>
+
+        <source-file src="src/ios/LTMorphingLabel/Particles/Fire.png" target-dir="LTMorphingLabel/Particles"/>
+        <source-file src="src/ios/LTMorphingLabel/Particles/Fragment.png" target-dir="LTMorphingLabel/Particles"/>
+        <source-file src="src/ios/LTMorphingLabel/Particles/Smoke.png" target-dir="LTMorphingLabel/Particles"/>
+        <source-file src="src/ios/LTMorphingLabel/Particles/Sparkle.png" target-dir="LTMorphingLabel/Particles"/>
+
+        <source-file src="src/ios/LTMorphingLabel/LTCharacterDiffResult.swift" target-dir="LTMorphingLabel"/>
+        <source-file src="src/ios/LTMorphingLabel/LTCharacterLimbo.swift" target-dir="LTMorphingLabel"/>
+        <source-file src="src/ios/LTMorphingLabel/LTEasing.swift" target-dir="LTMorphingLabel"/>
+        <source-file src="src/ios/LTMorphingLabel/LTEmitterView.swift" target-dir="LTMorphingLabel"/>
+        <source-file src="src/ios/LTMorphingLabel/LTMorphingEffect.swift" target-dir="LTMorphingLabel"/>
+        <source-file src="src/ios/LTMorphingLabel/LTMorphingLabel.swift" target-dir="LTMorphingLabel"/>
+        <source-file src="src/ios/LTMorphingLabel/LTMorphingLabel+Anvil.swift" target-dir="LTMorphingLabel"/>
+        <source-file src="src/ios/LTMorphingLabel/LTMorphingLabel+Burn.swift" target-dir="LTMorphingLabel"/>
+        <source-file src="src/ios/LTMorphingLabel/LTMorphingLabel+Evaporate.swift" target-dir="LTMorphingLabel"/>
+        <source-file src="src/ios/LTMorphingLabel/LTMorphingLabel+Fall.swift" target-dir="LTMorphingLabel"/>
+        <source-file src="src/ios/LTMorphingLabel/LTMorphingLabel+Pixelate.swift" target-dir="LTMorphingLabel"/>
+        <source-file src="src/ios/LTMorphingLabel/LTMorphingLabel+Sparkle.swift" target-dir="LTMorphingLabel"/>
+        <source-file src="src/ios/LTMorphingLabel/LTStringDiffResult.swift" target-dir="LTMorphingLabel"/>
+
+        <!-- Project Level -->
         <framework src="QuartzCore.framework" />
-        
+
         <dependency id="cordova-plugin-swift-support" version="~3.1.1"/>
     </platform>
 

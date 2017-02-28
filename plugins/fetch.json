@@ -15,20 +15,20 @@
         "is_top_level": true,
         "variables": {}
     },
-    "bidchat-plugin-animations": {
-        "source": {
-            "type": "local",
-            "path": "/Data/git/plugin/BidchatAnimations"
-        },
-        "is_top_level": true,
-        "variables": {}
-    },
     "cordova-plugin-swift-support": {
         "source": {
             "type": "registry",
             "id": "cordova-plugin-swift-support"
         },
         "is_top_level": false,
+        "variables": {}
+    },
+    "bidchat-plugin-animations": {
+        "source": {
+            "type": "local",
+            "path": "/Data/git/plugin/BidchatAnimations"
+        },
+        "is_top_level": true,
         "variables": {}
     }
 }

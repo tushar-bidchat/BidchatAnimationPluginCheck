@@ -69,5 +69,6 @@ var SelectedShareButton = function (buttonId) {
 
 var onCountdownComplete = function () {
     console.log('onCountdownComplete Called');
+    isCountdownTimerOn = false;
     document.getElementById("buttonCountdown").innerHTML = "Countdown Start";
 }
