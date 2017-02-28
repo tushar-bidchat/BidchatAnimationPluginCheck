@@ -1,4 +1,4 @@
-var isCountdownTimerOn;
+var isCountdownTimerOn = false;
 
 var app = {
     // Application Constructor
@@ -28,12 +28,12 @@ var app = {
         document.getElementById("buttonCountdown").addEventListener("click", function () {
             if (isCountdownTimerOn) {
                 isCountdownTimerOn = false;
-                cordova.plugins.BidchatAnimations.stopCountdownTimer();
-                document.getElementById("buttonCountdown").innerHTML("Countdown Start");
+                cordova.plugins.BidchatAnimations.stopCountdownTimer(null, null, "Time Extended");
+                document.getElementById("buttonCountdown").innerHTML = "Countdown Start";
             } else {
                 isCountdownTimerOn = true;
                 cordova.plugins.BidchatAnimations.startCountdownTimer(null, null, 10, "onCountdownComplete");
-                document.getElementById("buttonCountdown").innerHTML("Countdown Stop");
+                document.getElementById("buttonCountdown").innerHTML = "Countdown Stop";
             }
         });
     }
@@ -69,5 +69,5 @@ var SelectedShareButton = function (buttonId) {
 
 var onCountdownComplete = function () {
     console.log('onCountdownComplete Called');
-    document.getElementById("buttonCountdown").innerHTML("Countdown Start");
+    document.getElementById("buttonCountdown").innerHTML = "Countdown Start";
 }
