@@ -19,6 +19,10 @@ var BidchatAnimations = (function() {
         return cordova.exec(success, error, "BidchatAnimations", "stopCountdownTimer", [timeExtendedMessage]);
     };
 
+    BidchatAnimations.likes = function(success, error) {
+        return cordova.exec(success, error, "BidchatAnimations", "likes", []);
+    };
+
     return BidchatAnimations;
 });
 

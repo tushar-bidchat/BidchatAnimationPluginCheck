@@ -41,6 +41,8 @@
         <source-file src="src/android/res/values/colors.xml" target-dir="res/values"/>
         <source-file src="src/android/res/values/dimens.xml" target-dir="res/values"/>
 
+        <framework src="hanks.xyz:htextview-library:0.1.5"/>
+
     </platform>
 
     <platform name="ios">

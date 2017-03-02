@@ -216,4 +216,9 @@
         [self.webViewEngine evaluateJavaScript:jsMethod completionHandler:^(id identifier, NSError *error) {}];
     }
 }
+
+- (void) likes:(CDVInvokedUrlCommand*)command {
+
+}
+
 @end
