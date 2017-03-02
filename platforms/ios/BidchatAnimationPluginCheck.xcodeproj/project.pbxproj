@@ -14,32 +14,32 @@
 		302D95F214D2391D003F00A1 /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 302D95F014D2391D003F00A1 /* MainViewController.xib */; };
 		6AFF5BF91D6E424B00AB3073 /* CDVLaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6AFF5BF81D6E424B00AB3073 /* CDVLaunchScreen.storyboard */; };
 		E77A897CE57C0A134E9AA27B /* libPods-BidchatAnimationPluginCheck.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CA7DB33D6724789F60C19F59 /* libPods-BidchatAnimationPluginCheck.a */; };
-		408B6BE5E2BA4D87825F58C3 /* BidchatAnimations.m in Sources */ = {isa = PBXBuildFile; fileRef = A49FC5B0D82042CE82320B5E /* BidchatAnimations.m */; };
-		AEA5A7F5BD914306AC289A84 /* email.png in Resources */ = {isa = PBXBuildFile; fileRef = 2AE34AF36858455897A804D5 /* email.png */; };
-		DB10F5C07D4145A69D2F1241 /* facebook.png in Resources */ = {isa = PBXBuildFile; fileRef = 97BA933F11BF48A2AA99B38F /* facebook.png */; };
-		86BBA05BA39543BBB921F10A /* google-plus.png in Resources */ = {isa = PBXBuildFile; fileRef = 81316B4AEC2A400B84CCB5C7 /* google-plus.png */; };
-		87C4505276914713A2E6560A /* instagram.png in Resources */ = {isa = PBXBuildFile; fileRef = 5F80FD7A23804511B83C57CD /* instagram.png */; };
-		B986DDE5D3AE4D0B8DB030FE /* messages.png in Resources */ = {isa = PBXBuildFile; fileRef = B456C7CCAFF745DCA8A921EB /* messages.png */; };
-		56001E0A7B4C429E82C0C033 /* twitter.png in Resources */ = {isa = PBXBuildFile; fileRef = C555BFCEB3F547A39A04D9E7 /* twitter.png */; };
-		DA57FD958C394CFABE49C7BE /* CountdownLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ACD311208384E12A31E35A2 /* CountdownLabel.swift */; };
-		E35453E495484789BBC0F131 /* Fire.png in Resources */ = {isa = PBXBuildFile; fileRef = 0A934714581245D180A0F3FA /* Fire.png */; };
-		033213BDB1C64CB4AF755FBC /* Fragment.png in Resources */ = {isa = PBXBuildFile; fileRef = 4732D6ECA33F4350B1DD1A21 /* Fragment.png */; };
-		7E43ACFE334C491DBA8692FC /* Smoke.png in Resources */ = {isa = PBXBuildFile; fileRef = 261BC0DB8A094F348A9E0D92 /* Smoke.png */; };
-		F8144DC9F92049A4ADA4BCD3 /* Sparkle.png in Resources */ = {isa = PBXBuildFile; fileRef = 9B7C9148D2FA4CBFB2636528 /* Sparkle.png */; };
-		3127C40A06D842D4A363F9ED /* LTCharacterDiffResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20FCB82644504EE39295CE61 /* LTCharacterDiffResult.swift */; };
-		B87ECE569DA14797B631661B /* LTCharacterLimbo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E6E02740C054CBDA0301453 /* LTCharacterLimbo.swift */; };
-		BF00B320C2B444DFB9CB452F /* LTEasing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41ACAF90B5F04492AC09BCB9 /* LTEasing.swift */; };
-		576189BFAB9147B8B3DB5EC6 /* LTEmitterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52823294880442A1A9CCDAA5 /* LTEmitterView.swift */; };
-		D470D2C37BA7477C8EF87D5E /* LTMorphingEffect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C37D0335BD040779052BABD /* LTMorphingEffect.swift */; };
-		C6BCC26237A54E1583DAAB65 /* LTMorphingLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0BF34171EB048CFABD3365F /* LTMorphingLabel.swift */; };
-		2166FF4635064B1C87E5732B /* LTMorphingLabel+Anvil.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF4152880900448B8AC2B5EF /* LTMorphingLabel+Anvil.swift */; };
-		BDC842FBEF524B3584A4786A /* LTMorphingLabel+Burn.swift in Sources */ = {isa = PBXBuildFile; fileRef = A30F740B547A49DAA6D56A2A /* LTMorphingLabel+Burn.swift */; };
-		CC96AEF0147D43E9A1D00798 /* LTMorphingLabel+Evaporate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3581B56E6711458BB93EB6B6 /* LTMorphingLabel+Evaporate.swift */; };
-		5DDFA2E2F8CC49EB87D76840 /* LTMorphingLabel+Fall.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FF1A4EB9EB245E2B9F69136 /* LTMorphingLabel+Fall.swift */; };
-		75C3337ED9A1486B970B8F17 /* LTMorphingLabel+Pixelate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5E22A0BE825450F80B939E6 /* LTMorphingLabel+Pixelate.swift */; };
-		7A68F7F23C7A432CAB148DEC /* LTMorphingLabel+Sparkle.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA817212FB7C4166B8EF447A /* LTMorphingLabel+Sparkle.swift */; };
-		1B68F4CBF9A54455AED53B3D /* LTStringDiffResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C9935748AD243D6B453B3BA /* LTStringDiffResult.swift */; };
-		2703DBAB80F84C0B8A56EC22 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 660113A5B29C46FD8DD60A66 /* QuartzCore.framework */; };
+		30FAA6493B3B40C4AF8AE60B /* BidchatAnimations.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A94B21BD0654F339FCB329F /* BidchatAnimations.m */; };
+		B01774F667AB41328E181033 /* email.png in Resources */ = {isa = PBXBuildFile; fileRef = 79327D223A7A4A4BBF4E9356 /* email.png */; };
+		FDF558DD6A194D66B2A70744 /* facebook.png in Resources */ = {isa = PBXBuildFile; fileRef = 4BD5B1D6C642424B861F1E19 /* facebook.png */; };
+		3A3E6C54F72B482B98E18B9D /* google-plus.png in Resources */ = {isa = PBXBuildFile; fileRef = 34546CB9F2C0455EAD77EF54 /* google-plus.png */; };
+		B89085FF05454993B3D73098 /* instagram.png in Resources */ = {isa = PBXBuildFile; fileRef = 38F84AA433854D5984C78D9A /* instagram.png */; };
+		7AB7DA7ED31B484D8460D587 /* messages.png in Resources */ = {isa = PBXBuildFile; fileRef = 20B58E64705B4B0DA77D9169 /* messages.png */; };
+		920FD679F6934D20B3E80A83 /* twitter.png in Resources */ = {isa = PBXBuildFile; fileRef = F1190FD92AA24966ABBB1C05 /* twitter.png */; };
+		F5B3574EAD3847358B5E15D6 /* CountdownLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F224B916F0F406FAAE46C96 /* CountdownLabel.swift */; };
+		767078A201BE473EB85373DB /* Fire.png in Resources */ = {isa = PBXBuildFile; fileRef = D28D91BE76FE4032B58ECB2A /* Fire.png */; };
+		72FE4C56EC754878943F8612 /* Fragment.png in Resources */ = {isa = PBXBuildFile; fileRef = A5A82B9A6D9943A0BF1CCF84 /* Fragment.png */; };
+		DFCDE4F92A01483AB5FEA175 /* Smoke.png in Resources */ = {isa = PBXBuildFile; fileRef = 814D27A2658F412B959C28FD /* Smoke.png */; };
+		E1C1242CB69D4E39B35DF8CE /* Sparkle.png in Resources */ = {isa = PBXBuildFile; fileRef = 28AC6ACBB9F44B8EBD8E91CD /* Sparkle.png */; };
+		FFC560CD39254D6697121D54 /* LTCharacterDiffResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AD0B0BFE352461EBAC3BDB9 /* LTCharacterDiffResult.swift */; };
+		FBE3129E5DF744C395875831 /* LTCharacterLimbo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D062CE87A0E43C0937DB34B /* LTCharacterLimbo.swift */; };
+		6A87FD3EA2834E7B9F70F0EE /* LTEasing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D3868412B67408799E719B6 /* LTEasing.swift */; };
+		B4234F854A984F64B116F1C8 /* LTEmitterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FDF1EB3EECB4474837AAAF2 /* LTEmitterView.swift */; };
+		AB0F259DAA344F1F90564B32 /* LTMorphingEffect.swift in Sources */ = {isa = PBXBuildFile; fileRef = D145FFF969BD4EACB863390E /* LTMorphingEffect.swift */; };
+		8F589390787C4ADDBBD81B74 /* LTMorphingLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7691A826421141A09A51B4CB /* LTMorphingLabel.swift */; };
+		3D14999A1A9F4BDD8A50234C /* LTMorphingLabel+Anvil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80C118CA235D4BF7A68835CE /* LTMorphingLabel+Anvil.swift */; };
+		EB6C4753671141C8815041D1 /* LTMorphingLabel+Burn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 856F1AE47040411EAF537ECB /* LTMorphingLabel+Burn.swift */; };
+		CBF080306121436FB112ECA2 /* LTMorphingLabel+Evaporate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAFF2A0F5A974A83A6202CF2 /* LTMorphingLabel+Evaporate.swift */; };
+		1770AF0612184119BD7B11BD /* LTMorphingLabel+Fall.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A36B8D0BC9549A996CF25B0 /* LTMorphingLabel+Fall.swift */; };
+		971F0F52BBDF41EEB8901D29 /* LTMorphingLabel+Pixelate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43E8EA0A53164E1BAF6C15B5 /* LTMorphingLabel+Pixelate.swift */; };
+		D859DEEC616F40EEA1AC474B /* LTMorphingLabel+Sparkle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1915032D4D3D40E495857CDB /* LTMorphingLabel+Sparkle.swift */; };
+		11BD62B42CCE4CC2A1F03C72 /* LTStringDiffResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF440269F3E7476ABD859231 /* LTStringDiffResult.swift */; };
+		BAA1847270B647B0964493F1 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 607538F494834921AA5CBF2A /* QuartzCore.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -81,33 +81,33 @@
 		EB87FDF41871DAF40020F90C /* config.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = config.xml; path = ../../config.xml; sourceTree = "<group>"; };
 		ED33DF2A687741AEAF9F8254 /* Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Bridging-Header.h"; sourceTree = "<group>"; };
 		F840E1F0165FE0F500CFE078 /* config.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = config.xml; path = BidchatAnimationPluginCheck/config.xml; sourceTree = "<group>"; };
-		A49FC5B0D82042CE82320B5E /* BidchatAnimations.m */ = {isa = PBXFileReference; name = "BidchatAnimations.m"; path = "bidchat-plugin-animations/BidchatAnimations.m"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; explicitFileType = undefined; includeInIndex = 0; };
-		2AE34AF36858455897A804D5 /* email.png */ = {isa = PBXFileReference; name = "email.png"; path = "bidchat-plugin-animations/resource/email.png"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		97BA933F11BF48A2AA99B38F /* facebook.png */ = {isa = PBXFileReference; name = "facebook.png"; path = "bidchat-plugin-animations/resource/facebook.png"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		81316B4AEC2A400B84CCB5C7 /* google-plus.png */ = {isa = PBXFileReference; name = "google-plus.png"; path = "bidchat-plugin-animations/resource/google-plus.png"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		5F80FD7A23804511B83C57CD /* instagram.png */ = {isa = PBXFileReference; name = "instagram.png"; path = "bidchat-plugin-animations/resource/instagram.png"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		B456C7CCAFF745DCA8A921EB /* messages.png */ = {isa = PBXFileReference; name = "messages.png"; path = "bidchat-plugin-animations/resource/messages.png"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		C555BFCEB3F547A39A04D9E7 /* twitter.png */ = {isa = PBXFileReference; name = "twitter.png"; path = "bidchat-plugin-animations/resource/twitter.png"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		1ACD311208384E12A31E35A2 /* CountdownLabel.swift */ = {isa = PBXFileReference; name = "CountdownLabel.swift"; path = "bidchat-plugin-animations/CountdownLabel.swift"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.swift; explicitFileType = undefined; includeInIndex = 0; };
-		0A934714581245D180A0F3FA /* Fire.png */ = {isa = PBXFileReference; name = "Fire.png"; path = "bidchat-plugin-animations/LTMorphingLabel/Particles/Fire.png"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		4732D6ECA33F4350B1DD1A21 /* Fragment.png */ = {isa = PBXFileReference; name = "Fragment.png"; path = "bidchat-plugin-animations/LTMorphingLabel/Particles/Fragment.png"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		261BC0DB8A094F348A9E0D92 /* Smoke.png */ = {isa = PBXFileReference; name = "Smoke.png"; path = "bidchat-plugin-animations/LTMorphingLabel/Particles/Smoke.png"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		9B7C9148D2FA4CBFB2636528 /* Sparkle.png */ = {isa = PBXFileReference; name = "Sparkle.png"; path = "bidchat-plugin-animations/LTMorphingLabel/Particles/Sparkle.png"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		20FCB82644504EE39295CE61 /* LTCharacterDiffResult.swift */ = {isa = PBXFileReference; name = "LTCharacterDiffResult.swift"; path = "bidchat-plugin-animations/LTMorphingLabel/LTCharacterDiffResult.swift"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.swift; explicitFileType = undefined; includeInIndex = 0; };
-		1E6E02740C054CBDA0301453 /* LTCharacterLimbo.swift */ = {isa = PBXFileReference; name = "LTCharacterLimbo.swift"; path = "bidchat-plugin-animations/LTMorphingLabel/LTCharacterLimbo.swift"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.swift; explicitFileType = undefined; includeInIndex = 0; };
-		41ACAF90B5F04492AC09BCB9 /* LTEasing.swift */ = {isa = PBXFileReference; name = "LTEasing.swift"; path = "bidchat-plugin-animations/LTMorphingLabel/LTEasing.swift"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.swift; explicitFileType = undefined; includeInIndex = 0; };
-		52823294880442A1A9CCDAA5 /* LTEmitterView.swift */ = {isa = PBXFileReference; name = "LTEmitterView.swift"; path = "bidchat-plugin-animations/LTMorphingLabel/LTEmitterView.swift"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.swift; explicitFileType = undefined; includeInIndex = 0; };
-		2C37D0335BD040779052BABD /* LTMorphingEffect.swift */ = {isa = PBXFileReference; name = "LTMorphingEffect.swift"; path = "bidchat-plugin-animations/LTMorphingLabel/LTMorphingEffect.swift"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.swift; explicitFileType = undefined; includeInIndex = 0; };
-		C0BF34171EB048CFABD3365F /* LTMorphingLabel.swift */ = {isa = PBXFileReference; name = "LTMorphingLabel.swift"; path = "bidchat-plugin-animations/LTMorphingLabel/LTMorphingLabel.swift"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.swift; explicitFileType = undefined; includeInIndex = 0; };
-		FF4152880900448B8AC2B5EF /* LTMorphingLabel+Anvil.swift */ = {isa = PBXFileReference; name = "LTMorphingLabel+Anvil.swift"; path = "bidchat-plugin-animations/LTMorphingLabel/LTMorphingLabel+Anvil.swift"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.swift; explicitFileType = undefined; includeInIndex = 0; };
-		A30F740B547A49DAA6D56A2A /* LTMorphingLabel+Burn.swift */ = {isa = PBXFileReference; name = "LTMorphingLabel+Burn.swift"; path = "bidchat-plugin-animations/LTMorphingLabel/LTMorphingLabel+Burn.swift"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.swift; explicitFileType = undefined; includeInIndex = 0; };
-		3581B56E6711458BB93EB6B6 /* LTMorphingLabel+Evaporate.swift */ = {isa = PBXFileReference; name = "LTMorphingLabel+Evaporate.swift"; path = "bidchat-plugin-animations/LTMorphingLabel/LTMorphingLabel+Evaporate.swift"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.swift; explicitFileType = undefined; includeInIndex = 0; };
-		0FF1A4EB9EB245E2B9F69136 /* LTMorphingLabel+Fall.swift */ = {isa = PBXFileReference; name = "LTMorphingLabel+Fall.swift"; path = "bidchat-plugin-animations/LTMorphingLabel/LTMorphingLabel+Fall.swift"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.swift; explicitFileType = undefined; includeInIndex = 0; };
-		A5E22A0BE825450F80B939E6 /* LTMorphingLabel+Pixelate.swift */ = {isa = PBXFileReference; name = "LTMorphingLabel+Pixelate.swift"; path = "bidchat-plugin-animations/LTMorphingLabel/LTMorphingLabel+Pixelate.swift"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.swift; explicitFileType = undefined; includeInIndex = 0; };
-		AA817212FB7C4166B8EF447A /* LTMorphingLabel+Sparkle.swift */ = {isa = PBXFileReference; name = "LTMorphingLabel+Sparkle.swift"; path = "bidchat-plugin-animations/LTMorphingLabel/LTMorphingLabel+Sparkle.swift"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.swift; explicitFileType = undefined; includeInIndex = 0; };
-		5C9935748AD243D6B453B3BA /* LTStringDiffResult.swift */ = {isa = PBXFileReference; name = "LTStringDiffResult.swift"; path = "bidchat-plugin-animations/LTMorphingLabel/LTStringDiffResult.swift"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.swift; explicitFileType = undefined; includeInIndex = 0; };
-		36B183FCA8974885B1A3C9FF /* LTMorphingLabel.h */ = {isa = PBXFileReference; name = "LTMorphingLabel.h"; path = "bidchat-plugin-animations/LTMorphingLabel/LTMorphingLabel.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
-		660113A5B29C46FD8DD60A66 /* QuartzCore.framework */ = {isa = PBXFileReference; name = "QuartzCore.framework"; path = "System/Library/Frameworks/QuartzCore.framework"; sourceTree = SDKROOT; fileEncoding = undefined; lastKnownFileType = wrapper.framework; explicitFileType = undefined; includeInIndex = 0; };
+		7A94B21BD0654F339FCB329F /* BidchatAnimations.m */ = {isa = PBXFileReference; name = "BidchatAnimations.m"; path = "bidchat-plugin-animations/BidchatAnimations.m"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; explicitFileType = undefined; includeInIndex = 0; };
+		79327D223A7A4A4BBF4E9356 /* email.png */ = {isa = PBXFileReference; name = "email.png"; path = "bidchat-plugin-animations/resource/email.png"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		4BD5B1D6C642424B861F1E19 /* facebook.png */ = {isa = PBXFileReference; name = "facebook.png"; path = "bidchat-plugin-animations/resource/facebook.png"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		34546CB9F2C0455EAD77EF54 /* google-plus.png */ = {isa = PBXFileReference; name = "google-plus.png"; path = "bidchat-plugin-animations/resource/google-plus.png"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		38F84AA433854D5984C78D9A /* instagram.png */ = {isa = PBXFileReference; name = "instagram.png"; path = "bidchat-plugin-animations/resource/instagram.png"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		20B58E64705B4B0DA77D9169 /* messages.png */ = {isa = PBXFileReference; name = "messages.png"; path = "bidchat-plugin-animations/resource/messages.png"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		F1190FD92AA24966ABBB1C05 /* twitter.png */ = {isa = PBXFileReference; name = "twitter.png"; path = "bidchat-plugin-animations/resource/twitter.png"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		8F224B916F0F406FAAE46C96 /* CountdownLabel.swift */ = {isa = PBXFileReference; name = "CountdownLabel.swift"; path = "bidchat-plugin-animations/CountdownLabel.swift"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.swift; explicitFileType = undefined; includeInIndex = 0; };
+		D28D91BE76FE4032B58ECB2A /* Fire.png */ = {isa = PBXFileReference; name = "Fire.png"; path = "bidchat-plugin-animations/LTMorphingLabel/Particles/Fire.png"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		A5A82B9A6D9943A0BF1CCF84 /* Fragment.png */ = {isa = PBXFileReference; name = "Fragment.png"; path = "bidchat-plugin-animations/LTMorphingLabel/Particles/Fragment.png"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		814D27A2658F412B959C28FD /* Smoke.png */ = {isa = PBXFileReference; name = "Smoke.png"; path = "bidchat-plugin-animations/LTMorphingLabel/Particles/Smoke.png"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		28AC6ACBB9F44B8EBD8E91CD /* Sparkle.png */ = {isa = PBXFileReference; name = "Sparkle.png"; path = "bidchat-plugin-animations/LTMorphingLabel/Particles/Sparkle.png"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		6AD0B0BFE352461EBAC3BDB9 /* LTCharacterDiffResult.swift */ = {isa = PBXFileReference; name = "LTCharacterDiffResult.swift"; path = "bidchat-plugin-animations/LTMorphingLabel/LTCharacterDiffResult.swift"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.swift; explicitFileType = undefined; includeInIndex = 0; };
+		8D062CE87A0E43C0937DB34B /* LTCharacterLimbo.swift */ = {isa = PBXFileReference; name = "LTCharacterLimbo.swift"; path = "bidchat-plugin-animations/LTMorphingLabel/LTCharacterLimbo.swift"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.swift; explicitFileType = undefined; includeInIndex = 0; };
+		3D3868412B67408799E719B6 /* LTEasing.swift */ = {isa = PBXFileReference; name = "LTEasing.swift"; path = "bidchat-plugin-animations/LTMorphingLabel/LTEasing.swift"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.swift; explicitFileType = undefined; includeInIndex = 0; };
+		4FDF1EB3EECB4474837AAAF2 /* LTEmitterView.swift */ = {isa = PBXFileReference; name = "LTEmitterView.swift"; path = "bidchat-plugin-animations/LTMorphingLabel/LTEmitterView.swift"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.swift; explicitFileType = undefined; includeInIndex = 0; };
+		D145FFF969BD4EACB863390E /* LTMorphingEffect.swift */ = {isa = PBXFileReference; name = "LTMorphingEffect.swift"; path = "bidchat-plugin-animations/LTMorphingLabel/LTMorphingEffect.swift"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.swift; explicitFileType = undefined; includeInIndex = 0; };
+		7691A826421141A09A51B4CB /* LTMorphingLabel.swift */ = {isa = PBXFileReference; name = "LTMorphingLabel.swift"; path = "bidchat-plugin-animations/LTMorphingLabel/LTMorphingLabel.swift"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.swift; explicitFileType = undefined; includeInIndex = 0; };
+		80C118CA235D4BF7A68835CE /* LTMorphingLabel+Anvil.swift */ = {isa = PBXFileReference; name = "LTMorphingLabel+Anvil.swift"; path = "bidchat-plugin-animations/LTMorphingLabel/LTMorphingLabel+Anvil.swift"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.swift; explicitFileType = undefined; includeInIndex = 0; };
+		856F1AE47040411EAF537ECB /* LTMorphingLabel+Burn.swift */ = {isa = PBXFileReference; name = "LTMorphingLabel+Burn.swift"; path = "bidchat-plugin-animations/LTMorphingLabel/LTMorphingLabel+Burn.swift"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.swift; explicitFileType = undefined; includeInIndex = 0; };
+		DAFF2A0F5A974A83A6202CF2 /* LTMorphingLabel+Evaporate.swift */ = {isa = PBXFileReference; name = "LTMorphingLabel+Evaporate.swift"; path = "bidchat-plugin-animations/LTMorphingLabel/LTMorphingLabel+Evaporate.swift"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.swift; explicitFileType = undefined; includeInIndex = 0; };
+		8A36B8D0BC9549A996CF25B0 /* LTMorphingLabel+Fall.swift */ = {isa = PBXFileReference; name = "LTMorphingLabel+Fall.swift"; path = "bidchat-plugin-animations/LTMorphingLabel/LTMorphingLabel+Fall.swift"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.swift; explicitFileType = undefined; includeInIndex = 0; };
+		43E8EA0A53164E1BAF6C15B5 /* LTMorphingLabel+Pixelate.swift */ = {isa = PBXFileReference; name = "LTMorphingLabel+Pixelate.swift"; path = "bidchat-plugin-animations/LTMorphingLabel/LTMorphingLabel+Pixelate.swift"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.swift; explicitFileType = undefined; includeInIndex = 0; };
+		1915032D4D3D40E495857CDB /* LTMorphingLabel+Sparkle.swift */ = {isa = PBXFileReference; name = "LTMorphingLabel+Sparkle.swift"; path = "bidchat-plugin-animations/LTMorphingLabel/LTMorphingLabel+Sparkle.swift"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.swift; explicitFileType = undefined; includeInIndex = 0; };
+		CF440269F3E7476ABD859231 /* LTStringDiffResult.swift */ = {isa = PBXFileReference; name = "LTStringDiffResult.swift"; path = "bidchat-plugin-animations/LTMorphingLabel/LTStringDiffResult.swift"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.swift; explicitFileType = undefined; includeInIndex = 0; };
+		EB5979E3D3EF4638AD08363A /* LTMorphingLabel.h */ = {isa = PBXFileReference; name = "LTMorphingLabel.h"; path = "bidchat-plugin-animations/LTMorphingLabel/LTMorphingLabel.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
+		607538F494834921AA5CBF2A /* QuartzCore.framework */ = {isa = PBXFileReference; name = "QuartzCore.framework"; path = "System/Library/Frameworks/QuartzCore.framework"; sourceTree = SDKROOT; fileEncoding = undefined; lastKnownFileType = wrapper.framework; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,7 +117,7 @@
 			files = (
 				301BF552109A68D80062928A /* libCordova.a in Frameworks */,
 				E77A897CE57C0A134E9AA27B /* libPods-BidchatAnimationPluginCheck.a in Frameworks */,
-				2703DBAB80F84C0B8A56EC22 /* QuartzCore.framework in Frameworks */,
+				BAA1847270B647B0964493F1 /* QuartzCore.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -190,7 +190,7 @@
 			isa = PBXGroup;
 			children = (
 				CA7DB33D6724789F60C19F59 /* libPods-BidchatAnimationPluginCheck.a */,
-				660113A5B29C46FD8DD60A66 /* QuartzCore.framework */,
+				607538F494834921AA5CBF2A /* QuartzCore.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -216,32 +216,32 @@
 		307C750510C5A3420062BCA9 /* Plugins */ = {
 			isa = PBXGroup;
 			children = (
-				A49FC5B0D82042CE82320B5E /* BidchatAnimations.m */,
-				2AE34AF36858455897A804D5 /* email.png */,
-				97BA933F11BF48A2AA99B38F /* facebook.png */,
-				81316B4AEC2A400B84CCB5C7 /* google-plus.png */,
-				5F80FD7A23804511B83C57CD /* instagram.png */,
-				B456C7CCAFF745DCA8A921EB /* messages.png */,
-				C555BFCEB3F547A39A04D9E7 /* twitter.png */,
-				1ACD311208384E12A31E35A2 /* CountdownLabel.swift */,
-				0A934714581245D180A0F3FA /* Fire.png */,
-				4732D6ECA33F4350B1DD1A21 /* Fragment.png */,
-				261BC0DB8A094F348A9E0D92 /* Smoke.png */,
-				9B7C9148D2FA4CBFB2636528 /* Sparkle.png */,
-				20FCB82644504EE39295CE61 /* LTCharacterDiffResult.swift */,
-				1E6E02740C054CBDA0301453 /* LTCharacterLimbo.swift */,
-				41ACAF90B5F04492AC09BCB9 /* LTEasing.swift */,
-				52823294880442A1A9CCDAA5 /* LTEmitterView.swift */,
-				2C37D0335BD040779052BABD /* LTMorphingEffect.swift */,
-				C0BF34171EB048CFABD3365F /* LTMorphingLabel.swift */,
-				FF4152880900448B8AC2B5EF /* LTMorphingLabel+Anvil.swift */,
-				A30F740B547A49DAA6D56A2A /* LTMorphingLabel+Burn.swift */,
-				3581B56E6711458BB93EB6B6 /* LTMorphingLabel+Evaporate.swift */,
-				0FF1A4EB9EB245E2B9F69136 /* LTMorphingLabel+Fall.swift */,
-				A5E22A0BE825450F80B939E6 /* LTMorphingLabel+Pixelate.swift */,
-				AA817212FB7C4166B8EF447A /* LTMorphingLabel+Sparkle.swift */,
-				5C9935748AD243D6B453B3BA /* LTStringDiffResult.swift */,
-				36B183FCA8974885B1A3C9FF /* LTMorphingLabel.h */,
+				7A94B21BD0654F339FCB329F /* BidchatAnimations.m */,
+				79327D223A7A4A4BBF4E9356 /* email.png */,
+				4BD5B1D6C642424B861F1E19 /* facebook.png */,
+				34546CB9F2C0455EAD77EF54 /* google-plus.png */,
+				38F84AA433854D5984C78D9A /* instagram.png */,
+				20B58E64705B4B0DA77D9169 /* messages.png */,
+				F1190FD92AA24966ABBB1C05 /* twitter.png */,
+				8F224B916F0F406FAAE46C96 /* CountdownLabel.swift */,
+				D28D91BE76FE4032B58ECB2A /* Fire.png */,
+				A5A82B9A6D9943A0BF1CCF84 /* Fragment.png */,
+				814D27A2658F412B959C28FD /* Smoke.png */,
+				28AC6ACBB9F44B8EBD8E91CD /* Sparkle.png */,
+				6AD0B0BFE352461EBAC3BDB9 /* LTCharacterDiffResult.swift */,
+				8D062CE87A0E43C0937DB34B /* LTCharacterLimbo.swift */,
+				3D3868412B67408799E719B6 /* LTEasing.swift */,
+				4FDF1EB3EECB4474837AAAF2 /* LTEmitterView.swift */,
+				D145FFF969BD4EACB863390E /* LTMorphingEffect.swift */,
+				7691A826421141A09A51B4CB /* LTMorphingLabel.swift */,
+				80C118CA235D4BF7A68835CE /* LTMorphingLabel+Anvil.swift */,
+				856F1AE47040411EAF537ECB /* LTMorphingLabel+Burn.swift */,
+				DAFF2A0F5A974A83A6202CF2 /* LTMorphingLabel+Evaporate.swift */,
+				8A36B8D0BC9549A996CF25B0 /* LTMorphingLabel+Fall.swift */,
+				43E8EA0A53164E1BAF6C15B5 /* LTMorphingLabel+Pixelate.swift */,
+				1915032D4D3D40E495857CDB /* LTMorphingLabel+Sparkle.swift */,
+				CF440269F3E7476ABD859231 /* LTStringDiffResult.swift */,
+				EB5979E3D3EF4638AD08363A /* LTMorphingLabel.h */,
 			);
 			name = Plugins;
 			path = BidchatAnimationPluginCheck/Plugins;
@@ -428,31 +428,31 @@
 				DF3254D554784232BF2D9820 /* Fragment.png in Sources */,
 				11721B9561EE43DB802EB05E /* Smoke.png in Sources */,
 				5600D88980E344F69126BFFE /* Sparkle.png in Sources */,
-				408B6BE5E2BA4D87825F58C3 /* BidchatAnimations.m in Sources */,
-				AEA5A7F5BD914306AC289A84 /* email.png in Resources */,
-				DB10F5C07D4145A69D2F1241 /* facebook.png in Resources */,
-				86BBA05BA39543BBB921F10A /* google-plus.png in Resources */,
-				87C4505276914713A2E6560A /* instagram.png in Resources */,
-				B986DDE5D3AE4D0B8DB030FE /* messages.png in Resources */,
-				56001E0A7B4C429E82C0C033 /* twitter.png in Resources */,
-				DA57FD958C394CFABE49C7BE /* CountdownLabel.swift in Sources */,
-				E35453E495484789BBC0F131 /* Fire.png in Resources */,
-				033213BDB1C64CB4AF755FBC /* Fragment.png in Resources */,
-				7E43ACFE334C491DBA8692FC /* Smoke.png in Resources */,
-				F8144DC9F92049A4ADA4BCD3 /* Sparkle.png in Resources */,
-				3127C40A06D842D4A363F9ED /* LTCharacterDiffResult.swift in Sources */,
-				B87ECE569DA14797B631661B /* LTCharacterLimbo.swift in Sources */,
-				BF00B320C2B444DFB9CB452F /* LTEasing.swift in Sources */,
-				576189BFAB9147B8B3DB5EC6 /* LTEmitterView.swift in Sources */,
-				D470D2C37BA7477C8EF87D5E /* LTMorphingEffect.swift in Sources */,
-				C6BCC26237A54E1583DAAB65 /* LTMorphingLabel.swift in Sources */,
-				2166FF4635064B1C87E5732B /* LTMorphingLabel+Anvil.swift in Sources */,
-				BDC842FBEF524B3584A4786A /* LTMorphingLabel+Burn.swift in Sources */,
-				CC96AEF0147D43E9A1D00798 /* LTMorphingLabel+Evaporate.swift in Sources */,
-				5DDFA2E2F8CC49EB87D76840 /* LTMorphingLabel+Fall.swift in Sources */,
-				75C3337ED9A1486B970B8F17 /* LTMorphingLabel+Pixelate.swift in Sources */,
-				7A68F7F23C7A432CAB148DEC /* LTMorphingLabel+Sparkle.swift in Sources */,
-				1B68F4CBF9A54455AED53B3D /* LTStringDiffResult.swift in Sources */,
+				30FAA6493B3B40C4AF8AE60B /* BidchatAnimations.m in Sources */,
+				B01774F667AB41328E181033 /* email.png in Resources */,
+				FDF558DD6A194D66B2A70744 /* facebook.png in Resources */,
+				3A3E6C54F72B482B98E18B9D /* google-plus.png in Resources */,
+				B89085FF05454993B3D73098 /* instagram.png in Resources */,
+				7AB7DA7ED31B484D8460D587 /* messages.png in Resources */,
+				920FD679F6934D20B3E80A83 /* twitter.png in Resources */,
+				F5B3574EAD3847358B5E15D6 /* CountdownLabel.swift in Sources */,
+				767078A201BE473EB85373DB /* Fire.png in Resources */,
+				72FE4C56EC754878943F8612 /* Fragment.png in Resources */,
+				DFCDE4F92A01483AB5FEA175 /* Smoke.png in Resources */,
+				E1C1242CB69D4E39B35DF8CE /* Sparkle.png in Resources */,
+				FFC560CD39254D6697121D54 /* LTCharacterDiffResult.swift in Sources */,
+				FBE3129E5DF744C395875831 /* LTCharacterLimbo.swift in Sources */,
+				6A87FD3EA2834E7B9F70F0EE /* LTEasing.swift in Sources */,
+				B4234F854A984F64B116F1C8 /* LTEmitterView.swift in Sources */,
+				AB0F259DAA344F1F90564B32 /* LTMorphingEffect.swift in Sources */,
+				8F589390787C4ADDBBD81B74 /* LTMorphingLabel.swift in Sources */,
+				3D14999A1A9F4BDD8A50234C /* LTMorphingLabel+Anvil.swift in Sources */,
+				EB6C4753671141C8815041D1 /* LTMorphingLabel+Burn.swift in Sources */,
+				CBF080306121436FB112ECA2 /* LTMorphingLabel+Evaporate.swift in Sources */,
+				1770AF0612184119BD7B11BD /* LTMorphingLabel+Fall.swift in Sources */,
+				971F0F52BBDF41EEB8901D29 /* LTMorphingLabel+Pixelate.swift in Sources */,
+				D859DEEC616F40EEA1AC474B /* LTMorphingLabel+Sparkle.swift in Sources */,
+				11BD62B42CCE4CC2A1F03C72 /* LTStringDiffResult.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -250,7 +250,8 @@ dependencies {
     // SUB-PROJECT DEPENDENCIES START
     debugCompile(project(path: "CordovaLib", configuration: "debug"))
     releaseCompile(project(path: "CordovaLib", configuration: "release"))
-    compile "hanks.xyz:htextview-library:0.1.5"
+    debugCompile(project(path: "bidchat-plugin-animations:htextview-library", configuration: "debug"))
+    releaseCompile(project(path: "bidchat-plugin-animations:htextview-library", configuration: "release"))
     // SUB-PROJECT DEPENDENCIES END
 }
 

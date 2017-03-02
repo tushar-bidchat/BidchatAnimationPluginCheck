@@ -9,6 +9,8 @@
           <set>
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/CordovaLib" />
+            <option value="$PROJECT_DIR$/bidchat-plugin-animations" />
+            <option value="$PROJECT_DIR$/bidchat-plugin-animations/AnimationPluginCheck-htextview-library" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />

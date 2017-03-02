@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main"><source path="/Data/git/trials/BidchatAnimationPluginCheck/platforms/android/bidchat-plugin-animations/AnimationPluginCheck-htextview-library/src/main/shaders"/></dataSet><dataSet config="debug"><source path="/Data/git/trials/BidchatAnimationPluginCheck/platforms/android/bidchat-plugin-animations/AnimationPluginCheck-htextview-library/src/debug/shaders"/></dataSet></merger>

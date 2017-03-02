@@ -1,3 +1,5 @@
 // GENERATED FILE - DO NOT EDIT
 include ":"
 include ":CordovaLib"
+include ":bidchat-plugin-animations:htextview-library"
+project(":bidchat-plugin-animations:htextview-library").projectDir = new File("bidchat-plugin-animations/AnimationPluginCheck-htextview-library")
