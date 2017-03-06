@@ -8,6 +8,14 @@
 
 #define kTagtimeOverLabel  111111
 
+//struct HeartAttributes {
+//     CGFloat heartSize;// = 36;
+//    NSTimeInterval burstDelay; // = 0.1;
+//};
+
+static CGFloat heartSize = 36;
+static NSTimeInterval burstDelay = 0.1;
+
 @interface BidchatAnimations : CDVPlugin <CountdownLabelDelegate, LTMorphingLabelDelegate> {
     
     NSMutableArray *springViews;
@@ -15,6 +23,8 @@
     CountdownLabel * countdownLabel;
     NSString * countdownTimerCallback;
     LTMorphingLabel *timeOverLabel;
+    
+//    static CGFloat heartSize;
 }
 
 @end
@@ -219,6 +229,14 @@
 
 - (void) likes:(CDVInvokedUrlCommand*)command {
 
+    HeartView *heartview = [[HeartView alloc] initWithFrame:CGRectMake(0, 0, heartSize, heartSize)];
+    [self.viewController.view addSubview:heartview];
+    
+    float fountX = heartSize/2.0+20;
+    float fountY = self.viewController.view.bounds.size.height - heartSize/2.0 - 10;
+    
+    heartview.center =  CGPointMake(fountX,fountY);
+    [heartview animateInView:self.viewController.view];
 }
 
 @end

@@ -36,6 +36,10 @@ var app = {
                 document.getElementById("buttonCountdown").innerHTML = "Countdown Stop";
             }
         });
+
+        document.getElementById("buttonLikes").addEventListener("click", function () {
+            cordova.plugins.BidchatAnimations.likes(null, null)
+        });
     }
 };
 

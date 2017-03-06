@@ -87,6 +87,12 @@
         <source-file src="src/ios/LTMorphingLabel/LTMorphingLabel+Sparkle.swift" target-dir="LTMorphingLabel"/>
         <source-file src="src/ios/LTMorphingLabel/LTStringDiffResult.swift" target-dir="LTMorphingLabel"/>
 
+        <!-- For Floating Hearts -->
+        <source-file src="src/ios/FloatingHearts/FloatingHearts.h" target-dir="FloatingHearts"/>
+        <source-file src="src/ios/FloatingHearts/HeartView.swift" target-dir="FloatingHearts"/>
+        <source-file src="src/ios/FloatingHearts/Helpers.swift" target-dir="FloatingHearts"/>
+        <source-file src="src/ios/FloatingHearts/heart.png" target-dir="FloatingHearts"/>
+
         <!-- Project Level -->
         <framework src="QuartzCore.framework" />
 
