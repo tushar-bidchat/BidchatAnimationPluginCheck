@@ -96,7 +96,7 @@
         <!-- Project Level -->
         <framework src="QuartzCore.framework" />
 
-        <dependency id="cordova-plugin-swift-support" version="~3.1.1"/>
+        <!--<dependency id="cordova-plugin-swift-support" version="~3.1.1"/>-->
     </platform>
 
     <platform name="ios">

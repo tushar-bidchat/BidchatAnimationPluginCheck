@@ -32,7 +32,7 @@ public class SparkleText extends HText {
         backPaint.setColor(((ColorDrawable) mHTextView.getBackground()).getColor());
         backPaint.setStyle(Paint.Style.FILL);
 
-        sparkBitmap = BitmapFactory.decodeResource(mHTextView.getResources(), R.drawable.sparkle);
+        sparkBitmap = BitmapFactory.decodeResource(mHTextView.getResources(), R.drawable.sparkle_orange);
 
     }
 

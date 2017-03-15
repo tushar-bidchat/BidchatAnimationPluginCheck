@@ -1,2 +1,2 @@
 <?xml version="1.0" encoding="utf-8"?>
-<merger version="3"><dataSet config="main"><source path="/Users/Tushar/Downloads/HTextView-master/htextview-library/src/main/shaders"/></dataSet><dataSet config="release"><source path="/Users/Tushar/Downloads/HTextView-master/htextview-library/src/release/shaders"/></dataSet></merger>
+<merger version="3"><dataSet config="main"><source path="/Data/git/trials/BidchatAnimationPluginCheck/platforms/android/bidchat-plugin-animations/AnimationPluginCheck-htextview-library/src/main/shaders"/></dataSet><dataSet config="release"><source path="/Data/git/trials/BidchatAnimationPluginCheck/platforms/android/bidchat-plugin-animations/AnimationPluginCheck-htextview-library/src/release/shaders"/></dataSet></merger>

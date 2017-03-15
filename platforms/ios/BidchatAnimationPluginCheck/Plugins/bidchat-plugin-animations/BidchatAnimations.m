@@ -8,11 +8,7 @@
 
 #define kTagtimeOverLabel  111111
 
-//struct HeartAttributes {
-//     CGFloat heartSize;// = 36;
-//    NSTimeInterval burstDelay; // = 0.1;
-//};
-
+// For Heart Animation
 static CGFloat heartSize = 36;
 static NSTimeInterval burstDelay = 0.1;
 
@@ -23,8 +19,6 @@ static NSTimeInterval burstDelay = 0.1;
     CountdownLabel * countdownLabel;
     NSString * countdownTimerCallback;
     LTMorphingLabel *timeOverLabel;
-    
-//    static CGFloat heartSize;
 }
 
 @end
@@ -228,7 +222,6 @@ static NSTimeInterval burstDelay = 0.1;
 }
 
 - (void) likes:(CDVInvokedUrlCommand*)command {
-
     HeartView *heartview = [[HeartView alloc] initWithFrame:CGRectMake(0, 0, heartSize, heartSize)];
     [self.viewController.view addSubview:heartview];
     
