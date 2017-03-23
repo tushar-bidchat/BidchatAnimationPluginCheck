@@ -144,7 +144,7 @@ public class HeartView: UIView {
 
         let theme = HeartTheme.randomTheme()
         let imageBundle = NSBundle(forClass: HeartView.self)
-        let heartImage = UIImage(named: "heart", inBundle: imageBundle, compatibleWithTraitCollection: nil)
+        let heartImage = UIImage(named: "like", inBundle: imageBundle, compatibleWithTraitCollection: nil)
         let heartImageBorder = UIImage(named: "heartBorder", inBundle: imageBundle, compatibleWithTraitCollection: nil)
     
         //Draw background image (mimics border)

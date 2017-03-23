@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<plugin id="bidchat-plugin-animations" version="0.0.1" xmlns="http://apache.org/cordova/ns/plugins/1.0" xmlns:android="http://schemas.android.com/apk/res/android">
+<plugin id="bidchat-plugin-animations" version="1.0.0" xmlns="http://apache.org/cordova/ns/plugins/1.0" xmlns:android="http://schemas.android.com/apk/res/android">
     <name>BidchatAnimations</name>
     <js-module name="BidchatAnimations" src="www/BidchatAnimations.js">
         <clobbers target="cordova.plugins.BidchatAnimations" />
@@ -37,6 +37,8 @@
         <source-file src="src/android/res/drawable-hdpi/instagram.png" target-dir="res/drawable"/>
         <source-file src="src/android/res/drawable-hdpi/messages.png" target-dir="res/drawable"/>
         <source-file src="src/android/res/drawable-hdpi/twitter.png" target-dir="res/drawable"/>
+        <source-file src="src/android/res/drawable-hdpi/ic_heart.xml" target-dir="res/drawable"/>
+        <source-file src="src/android/res/drawable-hdpi/ic_like.xml" target-dir="res/drawable"/>
 
         <source-file src="src/android/res/values/colors.xml" target-dir="res/values"/>
         <source-file src="src/android/res/values/dimens.xml" target-dir="res/values"/>
@@ -92,6 +94,8 @@
         <source-file src="src/ios/FloatingHearts/HeartView.swift" target-dir="FloatingHearts"/>
         <source-file src="src/ios/FloatingHearts/Helpers.swift" target-dir="FloatingHearts"/>
         <source-file src="src/ios/FloatingHearts/heart.png" target-dir="FloatingHearts"/>
+        <source-file src="src/ios/FloatingHearts/like.png" target-dir="FloatingHearts"/>
+
 
         <!-- Project Level -->
         <framework src="QuartzCore.framework" />

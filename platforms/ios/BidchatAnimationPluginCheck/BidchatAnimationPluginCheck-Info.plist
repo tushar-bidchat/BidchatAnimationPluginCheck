@@ -52,5 +52,9 @@
       <key>NSAllowsArbitraryLoads</key>
       <true/>
     </dict>
+    <key>UIAppFonts</key>
+    <array>
+      <string>332562_4_0</string>
+    </array>
   </dict>
 </plist>

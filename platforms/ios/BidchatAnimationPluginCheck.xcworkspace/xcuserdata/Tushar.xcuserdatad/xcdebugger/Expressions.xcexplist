@@ -3,6 +3,17 @@
    version = "1.0">
    <ContextStates>
       <ContextState
+         contextName = "specialized HeartView.drawRect(CGRect) -&gt; ():HeartView.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "heartImage">
+            </PersistentString>
+            <PersistentString
+               value = "UIImage(named: &quot;heart&quot;, inBundle: imageBundle, compatibleWithTraitCollection: nil)">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
          contextName = "-[BidchatAnimations showCountdownTimer:]:BidchatAnimations.m">
          <PersistentStrings>
             <PersistentString

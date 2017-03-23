@@ -122,7 +122,7 @@ public class SparkleText extends HText {
     }
 
     private Bitmap getRandomSpark(Random random) {
-        int dstWidth = random.nextInt(12) + 1;
+        int dstWidth = random.nextInt(45) + 1;
         return Bitmap.createScaledBitmap(sparkBitmap, dstWidth, dstWidth, false);
     }
 }

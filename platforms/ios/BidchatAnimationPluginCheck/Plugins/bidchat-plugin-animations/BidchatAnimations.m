@@ -10,7 +10,11 @@
 
 // For Heart Animation
 static CGFloat heartSize = 36;
-static NSTimeInterval burstDelay = 0.1;
+
+#define kCoutdownFontSize 35
+#define kCoutdownFontName @"Avenir-Heavy"
+#define kPostCoutdownDelayDuration 1.5f
+#define kAppColor [UIColor colorWithRed:255.0f/255.0f green:51.0f/255.0f blue:80.0f/255.0f alpha:1.0f]
 
 @interface BidchatAnimations : CDVPlugin <CountdownLabelDelegate, LTMorphingLabelDelegate> {
     
@@ -38,43 +42,6 @@ static NSTimeInterval burstDelay = 0.1;
 
 //     [self.commandDelegate sendPluginResult:pluginResult callbackId:command.callbackId];
 // }
-
-#pragma mark Countdown Animation
-- (void) startCountdownTimer :(CDVInvokedUrlCommand*)command {
-    
-    NSNumber *timerStartValue = [command.arguments objectAtIndex:0];
-    countdownTimerCallback = [command.arguments objectAtIndex:1];
-    
-    countdownLabel = [[CountdownLabel alloc] initWithFrame:CGRectMake(40, 100, 200, 100) minutes: [timerStartValue intValue]];
-    [countdownLabel setTextColor:[UIColor orangeColor]];
-    [countdownLabel setCountdownDelegate:self];
-    
-    [countdownLabel setFont:[UIFont fontWithName:@"Courier" size: 30]];//[UIFont labelFontSize]]];
-    [countdownLabel setBidchatAnimation];
-    
-    [self.viewController.view addSubview:countdownLabel];
-    [countdownLabel start:nil];
-}
-
-- (void) stopCountdownTimer :(CDVInvokedUrlCommand*)command {
-    
-    if(countdownLabel != nil) {
-        [countdownLabel cancel:nil];
-    }
-    
-    NSString *timeExtendedMessage = [command.arguments objectAtIndex:0];
-    if(timeExtendedMessage != nil) {
-    
-        timeOverLabel = [[LTMorphingLabel alloc] initWithFrame:CGRectMake(40, 100, 200, 100)];
-        [timeOverLabel setText:timeExtendedMessage];
-        [timeOverLabel setTextColor:[UIColor orangeColor]];
-        [timeOverLabel setFont:[UIFont fontWithName:@"Courier" size: 30]];//[UIFont labelFontSize]]];
-        [timeOverLabel setMorphingEffect:LTMorphingEffectSparkle];
-        [timeOverLabel setDelegate:self];
-        [timeOverLabel setTag:kTagtimeOverLabel];
-        [self.viewController.view addSubview:timeOverLabel];
-    }
-}
 
 /**
  * Displays pop menu
@@ -182,6 +149,65 @@ static NSTimeInterval burstDelay = 0.1;
                      completion:NULL];
 }
 
+#pragma mark Countdown Animation
+- (void) startCountdownTimer :(CDVInvokedUrlCommand*)command {
+    
+    NSNumber *timerStartValue = [command.arguments objectAtIndex:0];
+    countdownTimerCallback = [command.arguments objectAtIndex:1];
+    
+    countdownLabel = [[CountdownLabel alloc] initWithFrame:CGRectMake(40, 100, 200, 100) minutes: [timerStartValue intValue]];
+    [countdownLabel setCountdownDelegate:self];
+    [countdownLabel setBidchatAnimation];
+    
+    [self.viewController.view addSubview:countdownLabel];
+    
+    [self updateCoutdownView:countdownLabel];
+    
+    [countdownLabel start:nil];
+}
+
+- (void) updateCoutdownView:(UIView*) viewToUpdate {
+    
+    [(UILabel*)viewToUpdate setTextColor:kAppColor];
+    //    [(UILabel*)viewToUpdate setBackgroundColor:[UIColor colorWithRed:255.0f/255.0f green:255.0f/255.0f blue:80.0f/255.0f alpha:1.0f]];
+    [(UILabel*)viewToUpdate setTextAlignment:NSTextAlignmentCenter];
+    [(UILabel*)viewToUpdate setFont:[UIFont fontWithName:kCoutdownFontName size: kCoutdownFontSize]];
+    
+    // Show in Center with Constraint
+    viewToUpdate.translatesAutoresizingMaskIntoConstraints = NO;
+    
+    NSLayoutConstraint * constraintCenterHorizontal = [viewToUpdate.centerXAnchor constraintEqualToAnchor:self.viewController.view.centerXAnchor];
+    NSLayoutConstraint * constraintCenterVertical = [viewToUpdate.centerYAnchor constraintEqualToAnchor:self.viewController.view.centerYAnchor];
+    
+    NSLayoutConstraint * constraintLeftMargin = [viewToUpdate.leftAnchor constraintEqualToAnchor:self.viewController.view.leftAnchor constant:16];
+    NSLayoutConstraint * constraintRightMargin = [viewToUpdate.rightAnchor constraintEqualToAnchor:self.viewController.view.rightAnchor constant:-16];
+    
+    //    NSLayoutConstraint * constraintWidth = [viewToUpdate.widthAnchor constraintEqualToConstant:100];
+    //    NSLayoutConstraint * constraintHeight = [viewToUpdate.heightAnchor constraintEqualToConstant:100];
+    [NSLayoutConstraint activateConstraints:@[constraintCenterHorizontal, constraintCenterVertical, constraintLeftMargin, constraintRightMargin]];
+    
+}
+
+- (void) stopCountdownTimer :(CDVInvokedUrlCommand*)command {
+    
+    if(countdownLabel != nil) {
+        [countdownLabel cancel:nil];
+    }
+    
+    NSString *timeExtendedMessage = [command.arguments objectAtIndex:0];
+    if(timeExtendedMessage != nil) {
+        
+        timeOverLabel = [[LTMorphingLabel alloc] initWithFrame:CGRectMake(40, 100, 200, 100)];
+        [timeOverLabel setText:timeExtendedMessage];
+        [timeOverLabel setMorphingEffect:LTMorphingEffectSparkle];
+        [timeOverLabel setDelegate:self];
+        [timeOverLabel setTag:kTagtimeOverLabel];
+        [timeOverLabel setMorphingDuration:kPostCoutdownDelayDuration];
+        [self.viewController.view addSubview:timeOverLabel];
+        
+        [self updateCoutdownView:timeOverLabel];
+    }
+}
 
 #pragma mark LTMorphingLabelDelegate Methods
 
@@ -194,12 +220,12 @@ static NSTimeInterval burstDelay = 0.1;
     
     timeOverLabel = [[LTMorphingLabel alloc] initWithFrame:CGRectMake(40, 100, 200, 100)];
     [timeOverLabel setText:@"Time Over"];
-    [timeOverLabel setTextColor:[UIColor orangeColor]];
-    [timeOverLabel setFont:[UIFont fontWithName:@"Courier" size: 30]];//[UIFont labelFontSize]]];
     [timeOverLabel setMorphingEffect:LTMorphingEffectSparkle];
     [timeOverLabel setDelegate:self];
     [timeOverLabel setTag:kTagtimeOverLabel];
+    [timeOverLabel setMorphingDuration:kPostCoutdownDelayDuration];
     [self.viewController.view addSubview:timeOverLabel];
+    [self updateCoutdownView:timeOverLabel];
 }
 
 - (void) countdownCancelled {
