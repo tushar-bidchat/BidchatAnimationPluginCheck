@@ -248,6 +248,13 @@ static CGFloat heartSize = 36;
 }
 
 - (void) likes:(CDVInvokedUrlCommand*)command {
+    NSString *x = [command.arguments objectAtIndex:0];
+    NSString *y = [command.arguments objectAtIndex:1];
+
+    NSString *userId = [command.arguments objectAtIndex:2];
+    NSString *userName = [command.arguments objectAtIndex:3];
+    NSString *userImageUrl = [command.arguments objectAtIndex:4];
+
     HeartView *heartview = [[HeartView alloc] initWithFrame:CGRectMake(0, 0, heartSize, heartSize)];
     [self.viewController.view addSubview:heartview];
     
@@ -256,6 +263,28 @@ static CGFloat heartSize = 36;
     
     heartview.center =  CGPointMake(fountX,fountY);
     [heartview animateInView:self.viewController.view];
+}
+
+- (void) showLolAnimation:(CDVInvokedUrlCommand*)command {
+
+    NSString *x = [command.arguments objectAtIndex:0];
+    NSString *y = [command.arguments objectAtIndex:1];
+
+    NSString *userId = [command.arguments objectAtIndex:2];
+    NSString *userName = [command.arguments objectAtIndex:3];
+    NSString *userImageUrl = [command.arguments objectAtIndex:4];
+
+}
+
+- (void) showMarryMeAnimation:(CDVInvokedUrlCommand*)command {
+
+    NSString *x = [command.arguments objectAtIndex:0];
+    NSString *y = [command.arguments objectAtIndex:1];
+
+    NSString *userId = [command.arguments objectAtIndex:2];
+    NSString *userName = [command.arguments objectAtIndex:3];
+    NSString *userImageUrl = [command.arguments objectAtIndex:4];
+
 }
 
 @end

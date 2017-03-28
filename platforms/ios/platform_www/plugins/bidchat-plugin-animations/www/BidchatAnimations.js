@@ -19,8 +19,16 @@ var BidchatAnimations = (function() {
         return cordova.exec(success, error, "BidchatAnimations", "stopCountdownTimer", [timeExtendedMessage]);
     };
 
-    BidchatAnimations.likes = function(success, error) {
-        return cordova.exec(success, error, "BidchatAnimations", "likes", []);
+    BidchatAnimations.likes = function(success, error, x, y, userId, userName, userImageUrl) {
+        return cordova.exec(success, error, "BidchatAnimations", "likes", [x, y, userId, userName, userImageUrl]);
+    };
+
+    BidchatAnimations.lol = function(success, error,x, y, userId, userName, userImageUrl) {
+        return cordova.exec(success, error, "BidchatAnimations", "lol", [x, y, userId, userName, userImageUrl]);
+    };
+
+    BidchatAnimations.marryMe = function(success, error,x, y, userId, userName, userImageUrl) {
+        return cordova.exec(success, error, "BidchatAnimations", "marryMe", [x, y, userId, userName, userImageUrl]);
     };
 
     return BidchatAnimations;

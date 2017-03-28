@@ -5,6 +5,7 @@
       <module fileurl="file://$PROJECT_DIR$/CordovaLib/CordovaLib.iml" filepath="$PROJECT_DIR$/CordovaLib/CordovaLib.iml" />
       <module fileurl="file://$PROJECT_DIR$/android.iml" filepath="$PROJECT_DIR$/android.iml" />
       <module fileurl="file://$PROJECT_DIR$/bidchat-plugin-animations/bidchat-plugin-animations.iml" filepath="$PROJECT_DIR$/bidchat-plugin-animations/bidchat-plugin-animations.iml" />
+      <module fileurl="file://$PROJECT_DIR$/bidchat-plugin-animations/bidchat-plugin-animations.iml" filepath="$PROJECT_DIR$/bidchat-plugin-animations/bidchat-plugin-animations.iml" />
       <module fileurl="file://$PROJECT_DIR$/bidchat-plugin-animations/AnimationPluginCheck-htextview-library/htextview-library.iml" filepath="$PROJECT_DIR$/bidchat-plugin-animations/AnimationPluginCheck-htextview-library/htextview-library.iml" />
     </modules>
   </component>

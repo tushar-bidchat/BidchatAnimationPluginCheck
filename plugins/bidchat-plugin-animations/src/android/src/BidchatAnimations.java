@@ -2,6 +2,7 @@ package com.bidchat.BidchatAnimations;
 
 import android.content.Context;
 import android.graphics.Color;
+import android.graphics.Point;
 import android.graphics.Typeface;
 import android.os.CountDownTimer;
 import android.os.Handler;
@@ -23,12 +24,14 @@ import android.view.animation.LinearInterpolator;
 import android.view.animation.RotateAnimation;
 import android.view.animation.ScaleAnimation;
 import android.view.animation.TranslateAnimation;
+import android.view.Display;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.RelativeLayout;
 
-import com.bidchat.AnimationPluginCheck.R;
-// import com.bidchatapp.bidchat.R;
+
+// import com.bidchat.AnimationPluginCheck.R;
+import com.bidchatapp.bidchat.R;
 import com.hanks.htextview.HTextView;
 import com.hanks.htextview.HTextViewType;
 
@@ -44,10 +47,6 @@ import java.util.Random;
  */
 public class BidchatAnimations extends CordovaPlugin implements PopMenuItemClickListener {
 
-    private static final int ANIMATION_TIME = 6000;
-    private static final int ONE_CYCLE_TIME = 1000;
-    private static final int NUMBER_OF_CYCLES = ANIMATION_TIME / ONE_CYCLE_TIME;
-
     private static final int APP_COLOR = Color.rgb(255, 51, 80);
     private static final int COUNTDOWN_TEXT_SIZE = 40;
     private static final int maxXDispersePoint = 1500;
@@ -59,6 +58,8 @@ public class BidchatAnimations extends CordovaPlugin implements PopMenuItemClick
     private CountDownTimer mCountDownTimer;
     private HTextView txtCountdown;
     private boolean isCounterOn = false;
+
+    private int minAngle, maxAngle;
 
     @Override
     public boolean execute(String action, JSONArray args, CallbackContext callbackContext) throws JSONException {
@@ -83,10 +84,42 @@ public class BidchatAnimations extends CordovaPlugin implements PopMenuItemClick
         }
 
         if (action.equals("likes")) {
-            showLikes();
+
+            String x = args.getString(0);
+            String y = args.getString(1);
+
+            String userId = args.getString(2);
+            String userName = args.getString(3);
+            String userImageUrl = args.getString(4);
+
+            showLikes(x, y, userId, userName, userImageUrl);
             return true;
         }
 
+        if (action.equals("lol")) {
+            String x = args.getString(0);
+            String y = args.getString(1);
+
+            String userId = args.getString(2);
+            String userName = args.getString(3);
+            String userImageUrl = args.getString(4);
+
+            showLolAnimation(x, y, userId, userName, userImageUrl);
+            return true;
+        }
+
+        if (action.equals("marryMe")) {
+
+            String x = args.getString(0);
+            String y = args.getString(1);
+
+            String userId = args.getString(2);
+            String userName = args.getString(3);
+            String userImageUrl = args.getString(4);
+
+            showMarryMeAnimation(x, y, userId, userName, userImageUrl);
+            return true;
+        }
 
         return false;
     }
@@ -238,15 +271,22 @@ public class BidchatAnimations extends CordovaPlugin implements PopMenuItemClick
         this.webView.sendJavascript(this.popMenuCallback + "(" + selectedItem + ");");
     }
 
-    public void showLikes() {
+    public void showLikes(String x, String y , String userId, String userName, String userImageUrl) {
 
         final ViewGroup rootView = (ViewGroup) this.cordova.getActivity().findViewById(android.R.id.content);
         final RelativeLayout relativeLayout = new RelativeLayout(this.cordova.getActivity());
         DisplayMetrics metrics = this.cordova.getActivity().getResources().getDisplayMetrics();
         int sizeInPx = (int) TypedValue.applyDimension(TypedValue.COMPLEX_UNIT_DIP, 40, metrics);
         RelativeLayout.LayoutParams params = new RelativeLayout.LayoutParams(sizeInPx, sizeInPx);
-        params.addRule(RelativeLayout.ALIGN_PARENT_BOTTOM, RelativeLayout.TRUE);
+        params.addRule(RelativeLayout.ALIGN_PARENT_TOP, RelativeLayout.TRUE);
         params.addRule(RelativeLayout.ALIGN_PARENT_LEFT, RelativeLayout.TRUE);
+
+        int sizeInPxX = (int) TypedValue.applyDimension(TypedValue.COMPLEX_UNIT_DIP, Integer.parseInt(x), metrics);
+        int sizeInPxY = (int) TypedValue.applyDimension(TypedValue.COMPLEX_UNIT_DIP, Integer.parseInt(y), metrics);
+        
+        params.leftMargin =sizeInPxX;
+        params.topMargin = sizeInPxY;
+
         final View view = new View(this.cordova.getActivity());
         view.setLayoutParams(params);
 
@@ -278,8 +318,10 @@ public class BidchatAnimations extends CordovaPlugin implements PopMenuItemClick
         final int scaleUpDuration = 150;
         final int scaleDownDuration = 50;
 
+        int animationTime = 0;
+        int rotationyCycle = 0;
+
         DisplayMetrics metrics = this.cordova.getActivity().getResources().getDisplayMetrics();
-        int marginInPx = (int) TypedValue.applyDimension(TypedValue.COMPLEX_UNIT_DIP, 20, metrics);
 
         final AnimationSet animationSet = new AnimationSet(true);
 
@@ -298,22 +340,32 @@ public class BidchatAnimations extends CordovaPlugin implements PopMenuItemClick
         animationScaleDown.setInterpolator(new LinearInterpolator());
         animationSet.addAnimation(animationScaleDown);
 
-        // To generate a random dispersing value between -150 to 150
+         // To generate a random dispersing value between 0 to width of screen
         Random random = new Random();
-        int minXDispersePoint = 5;
-        Log.d("Width", "Width : " + maxXDispersePoint);
+        Display display = this.cordova.getActivity().getWindowManager().getDefaultDisplay();
+        Point size = new Point();
+        display.getSize(size);
+
+        final int NUMBER_OF_CYCLES = 4;
+        final int DIP_COVERED_PER_CYCLE = (size.y / 2) / NUMBER_OF_CYCLES;
+        final int ANIMATION_TIME = (((size.y / 2)) / DIP_COVERED_PER_CYCLE) * 500;
+
+        int minXDispersePoint = -(int) view.getX();
+        int maxXDispersePoint = (int) (size.x - (view.getX() + view.getWidth()));
         int randomXDispersePoint = random.nextInt(maxXDispersePoint - minXDispersePoint) + minXDispersePoint;
 
         // For Movement Animation
-        Animation animationTranslate = new TranslateAnimation(view.getX(), view.getX() + randomXDispersePoint, view.getY(), parent.getY() + marginInPx);
+//        int movementInY = (int) TypedValue.applyDimension(TypedValue.COMPLEX_UNIT_DIP, 200, metrics);
+//        Animation animationTranslate = new TranslateAnimation(view.getX(), view.getX() + randomXDispersePoint, view.getY(), movementInY);
+        Animation animationTranslate = new TranslateAnimation(view.getX(), view.getX() + randomXDispersePoint, view.getY(), view.getY() - (parent.getHeight() / 2f));// fromXDelta, toXDelta, fromYDelta, toYDelta
+
         animationTranslate.setFillAfter(true);
         animationTranslate.setDuration(ANIMATION_TIME);
         animationTranslate.setInterpolator(new LinearInterpolator());
         animationSet.addAnimation(animationTranslate);
 
-        // To generate a random angle for each floating heart
-        int minAngle = -10;
-        int maxAngle = 0;
+         // To generate a random angle for each floating heart between -8 to 8
+        determineAngle(minXDispersePoint, maxXDispersePoint);
 
         int randomStartAngle = random.nextInt(maxAngle - minAngle) + minAngle;
 
@@ -328,7 +380,7 @@ public class BidchatAnimations extends CordovaPlugin implements PopMenuItemClick
 
         Animation animationAlpha = new AlphaAnimation(1, 0);// fromAlpha, toAlpha
         animationAlpha.setFillAfter(true);
-        animationAlpha.setDuration(ANIMATION_TIME / NUMBER_OF_CYCLES);
+        animationAlpha.setDuration(ANIMATION_TIME / (int) (NUMBER_OF_CYCLES - 0.5));
         animationAlpha.setInterpolator(new LinearInterpolator());
         animationAlpha.setStartOffset((ANIMATION_TIME - (ANIMATION_TIME / NUMBER_OF_CYCLES)));
         animationSet.addAnimation(animationAlpha);
@@ -339,8 +391,38 @@ public class BidchatAnimations extends CordovaPlugin implements PopMenuItemClick
         imageHeart.setLayoutParams(layoutParamsLeftLetter);
         imageHeart.setAdjustViewBounds(true);
         imageHeart.setImageDrawable(ContextCompat.getDrawable(context.getApplicationContext(), R.drawable.ic_like));
-
+        imageHeart.setAlpha(0.8f);
         parent.addView(imageHeart);
         imageHeart.startAnimation(animationSet);
+    }
+
+
+    /**
+     * @param x1 - left end disperse point
+     * @param x2 - right disperse point
+     */
+    public void determineAngle(int x1, int x2) {
+        if (x1 == 0 || x1 > (-20)) {
+            minAngle = -8;
+            maxAngle = -1;
+        } else if (x2 == 0 || x2 < (20)) {
+            minAngle = 1;
+            maxAngle = 8;
+        } else if (-(x1) < x2) {
+            minAngle = -4;
+            maxAngle = 8;
+        } else {
+            minAngle = -8;
+            maxAngle = 4;
+        }
+    }
+
+
+    public void showLolAnimation (String x, String y , String userId, String userName, String userImageUrl) {
+
+    }
+
+    public void showMarryMeAnimation (String x, String y, String userId, String userName, String userImageUrl) {
+        
     }
 }
