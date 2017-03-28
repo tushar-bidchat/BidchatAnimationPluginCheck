@@ -42,7 +42,7 @@ var app = {
             var userId = "1";
             var userName = "Tushar";
             var userImageUrl = "https://lh3.googleusercontent.com/-Y86IN-vEObo/AAAAAAAAAAI/AAAAAAAKyAM/6bec6LqLXXA/s0-c-k-no-ns/photo.jpg";
-            cordova.plugins.BidchatAnimations.likes(null, null, frame.x, frame.y, frame.toplocation, userId, userName, userImageUrl);
+            cordova.plugins.BidchatAnimations.likes(null, null, frame.x, frame.y, userId, userName, userImageUrl);
         });
 
         document.getElementById("buttonLol").addEventListener("click", function () {
@@ -50,7 +50,7 @@ var app = {
             var userId = "1";
             var userName = "Tushar";
             var userImageUrl = "https://lh3.googleusercontent.com/-Y86IN-vEObo/AAAAAAAAAAI/AAAAAAAKyAM/6bec6LqLXXA/s0-c-k-no-ns/photo.jpg";
-            cordova.plugins.BidchatAnimations.lol(null, null, frame.x, frame.y, frame.toplocation, userId, userName, userImageUrl);
+            cordova.plugins.BidchatAnimations.lol(null, null, frame.x, frame.y, userId, userName, userImageUrl);
         });
 
         document.getElementById("buttonMarryMe").addEventListener("click", function () {
@@ -58,7 +58,7 @@ var app = {
             var userId = "2";
             var userName = "Swarupa";
             var userImageUrl = "https://lh3.googleusercontent.com/-Y86IN-vEObo/AAAAAAAAAAI/AAAAAAAKyAM/6bec6LqLXXA/s0-c-k-no-ns/photo.jpg";
-            cordova.plugins.BidchatAnimations.marryMe(null, null, frame.x, frame.y, frame.toplocation, userId, userName, userImageUrl);
+            cordova.plugins.BidchatAnimations.marryMe(null, null, frame.x, frame.y, userId, userName, userImageUrl);
         });
     }
 };
@@ -105,7 +105,7 @@ var onCountdownComplete = function () {
 elementPosition = function (el) {
     var xPos = 0;
     var yPos = 0;
-    var viewPortHeight = $(window).height();
+    var viewPortHeight = window.screen.availHeight;
     var oneFourthHeight = viewPortHeight / 3;
     var toplocation = 0;
 
